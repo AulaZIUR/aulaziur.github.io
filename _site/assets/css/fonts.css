@@ -1,67 +1,33 @@
 @font-face { font-family: "Audiowide"; src: url("../fonts/Audiowide/Audiowide-Regular.ttf"); }
-
 @font-face { font-family: "Exo"; src: url("../fonts/Exo/static/Exo-Thin.ttf"); font-weight: 100; }
-
 @font-face { font-family: "Exo"; src: url("../fonts/Exo/static/Exo-ThinItalic.ttf"); font-weight: 100; font-style: italic; }
-
 @font-face { font-family: "Exo"; src: url("../fonts/Exo/static/Exo-ExtraLight.ttf"); font-weight: 200; }
-
 @font-face { font-family: "Exo"; src: url("../fonts/Exo/static/Exo-ExtraLightItalic.ttf"); font-weight: 200; font-style: italic; }
-
 @font-face { font-family: "Exo"; src: url("../fonts/Exo/static/Exo-Light.ttf"); font-weight: 300; }
-
 @font-face { font-family: "Exo"; src: url("../fonts/Exo/static/Exo-LightItalic.ttf"); font-weight: 300; font-style: italic; }
-
 @font-face { font-family: "Exo"; src: url("../fonts/Exo/static/Exo-Regular.ttf"); font-weight: 400; }
-
 @font-face { font-family: "Exo"; src: url("../fonts/Exo/static/Exo-Italic.ttf"); font-weight: 400; font-style: italic; }
-
 @font-face { font-family: "Exo"; src: url("../fonts/Exo/static/Exo-SemiBold.ttf"); font-weight: 600; }
-
 @font-face { font-family: "Exo"; src: url("../fonts/Exo/static/Exo-SemiBoldItalic.ttf"); font-weight: 600; font-style: italic; }
-
 @font-face { font-family: "Exo"; src: url("../fonts/Exo/static/Exo-Bold.ttf"); font-weight: 700; }
-
 @font-face { font-family: "Exo"; src: url("../fonts/Exo/static/Exo-BoldItalic.ttf"); font-weight: 700; font-style: italic; }
-
 @font-face { font-family: "Exo"; src: url("../fonts/Exo/static/Exo-ExtraBold.ttf"); font-weight: 800; }
-
 @font-face { font-family: "Exo"; src: url("../fonts/Exo/static/Exo-ExtraBoldItalic.ttf"); font-weight: 800; font-style: italic; }
-
 @font-face { font-family: "Barlow"; src: url("../fonts/Barlow/Barlow-Thin.ttf"); font-weight: 100; }
-
 @font-face { font-family: "Barlow"; src: url("../fonts/Barlow/Barlow-ThinItalic.ttf"); font-weight: 100; font-style: italic; }
-
 @font-face { font-family: "Barlow"; src: url("../fonts/Barlow/Barlow-ExtraLight.ttf"); font-weight: 200; }
-
 @font-face { font-family: "Barlow"; src: url("../fonts/Barlow/Barlow-ExtraLightItalic.ttf"); font-weight: 200; font-style: italic; }
-
 @font-face { font-family: "Barlow"; src: url("../fonts/Barlow/Barlow-Light.ttf"); font-weight: 300; }
-
 @font-face { font-family: "Barlow"; src: url("../fonts/Barlow/Barlow-LightItalic.ttf"); font-weight: 300; font-style: italic; }
-
 @font-face { font-family: "Barlow"; src: url("../fonts/Barlow/Barlow-Regular.ttf"); font-weight: 400; }
-
 @font-face { font-family: "Barlow"; src: url("../fonts/Barlow/Barlow-Italic.ttf"); font-weight: 400; font-style: italic; }
-
 @font-face { font-family: "Barlow"; src: url("../fonts/Barlow/Barlow-Medium.ttf"); font-weight: 500; }
-
 @font-face { font-family: "Barlow"; src: url("../fonts/Barlow/Barlow-MediumItalic.ttf"); font-weight: 500; font-style: italic; }
-
 @font-face { font-family: "Barlow"; src: url("../fonts/Barlow/Barlow-SemiBold.ttf"); font-weight: 600; }
-
 @font-face { font-family: "Barlow"; src: url("../fonts/Barlow/Barlow-SemiBold.ttf"); font-weight: 600; font-style: italic; }
-
 @font-face { font-family: "Barlow"; src: url("../fonts/Barlow/Barlow-Bold.ttf"); font-weight: 700; }
-
 @font-face { font-family: "Barlow"; src: url("../fonts/Barlow/Barlow-BoldItalic.ttf"); font-weight: 700; font-style: italic; }
-
 @font-face { font-family: "Barlow"; src: url("../fonts/Barlow/Barlow-ExtraBold.ttf"); font-weight: 800; }
-
 @font-face { font-family: "Barlow"; src: url("../fonts/Barlow/Barlow-ExtraBoldItalic.ttf"); font-weight: 800; font-style: italic; }
-
 @font-face { font-family: "Hacked"; src: url("../fonts/Hacked/HACKED.ttf"); }
-
 @font-face { font-family: "Azonix"; src: url("../fonts/Azonix/Azonix.otf"); font-weight: 500; }
-
-/*# sourceMappingURL=fonts.css.map */
