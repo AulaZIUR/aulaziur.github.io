@@ -1,0 +1,432 @@
+---
+---
+
+body {
+    margin: 0 !important;
+    height: 100vh;
+    color: #ffffff;
+    font-family: Exo;
+    font-weight: 300;
+}
+
+// lg
+@media (max-width: 992px) {
+    .about img {
+        margin-top: 5vh;
+    }
+}
+
+// xs
+@media (max-width: 576px) {
+    .section-wrapper {
+        width: 95% !important;
+    }
+}
+
+$blue1: #004A91;
+$blue2: #21847E;
+
+canvas {
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -9999;
+}
+
+nav {
+    background-color: transparent;
+    position: relative;
+}
+
+header {
+    height: 100vh;
+    position: relative; // in order to position the logo in the center
+
+    .sidenav {
+        height: 100%;
+        width: 300px;
+        margin-left: -300px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #000;
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 85px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+        font-family: Barlow;
+        z-index: 2;
+
+        .nav--aula-ciber-logo {
+            display: block;
+            margin: 0px auto 25px auto;
+            width: 80%;
+        }
+
+        a {
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 400;
+            color: #ffffff;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .lang-select {
+            width: 100%;
+            background-color: transparent;
+            color: #ffffff;
+            border: 0;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: .3s;
+        }
+
+
+        a:hover, .lang-select:hover {
+            background-color: $blue2;
+        }
+    }
+
+    .top-bar-sticky-wrapper {
+        position: fixed;
+        width: 100%;
+        background-color: rgba(10,10,10,.85);
+        z-index: 3;
+
+        .top-bar {
+            position: relative;
+            text-align: center;
+            margin: 0 20px;
+            
+            .title {
+                opacity: 1;
+                transition: opacity .5s;
+                margin: 0;
+                padding: 20px 0;
+                font-family: "Audiowide";
+            }
+        
+            .title-hidden {
+                opacity: 0;
+            }
+        
+            // Hamburguer button
+            .hamburger {
+                width: 70px;
+                height: 70px;
+                position: absolute;
+                left:0;
+                top: 50%; transform: translateY(-50%); // Vertical center
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                cursor: pointer;
+                z-index: 3;
+        
+                .ham--line-1 {
+                    width: 34px;
+                    height: 2px;
+                    background-color: #ffffff;
+                    transition: transform .5s;
+                    transform-origin: bottom left;
+                }
+        
+                .ham--line-1-active {
+                    transform: rotate(45deg);
+                }
+        
+                .ham--line-2 {
+                    margin: 10px 0px 10px 0px;
+                    width: 50px;
+                    height: 2px;
+                    background-color: #ffffff;
+                    margin-left: 0;
+                    transition: margin .5s;
+                }
+        
+                .ham--line-2-active {
+                    opacity: 0;
+                }
+        
+                .ham--line-3 {
+                    width: 34px;
+                    height: 2px;
+                    background-color: #ffffff;
+                    transition: transform .5s;
+                    transform-origin: top left;
+                }
+        
+                .ham--line-3-active {
+                    transform: rotate(-45deg);
+                    transform-origin: top left;
+                }
+        
+                &:hover > .ham--line-2 {
+                    margin-left: 12px;
+                    transition: all .5s;
+                }
+            }
+            .title {
+                text-align: center;
+            }
+        }
+    }
+}
+
+// Nav overlay
+.nav-overlay {
+    position: absolute;
+    width: 0vw; /* Change with JS */
+    height: 100vh;
+    background-color: #000000;
+    opacity: .5;
+    transition: width .5s;
+}
+
+.nav-overlay-active {
+    width: 100vw;
+    z-index: 1;
+}
+
+.header--aula-ciber-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section {
+    background-color: rgba(0,0,0,.8);
+    min-width: 400px;
+
+    .section-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        h2 {
+           font-family: Hacked;
+           font-size: 4.5vw;
+        }
+    
+        span {
+            font-size: 6vw;
+            margin: 0 1.5vw .5vw 1.5vw;
+            color: rgba(255, 255, 255, .3);
+            font-family: Audiowide;
+            font-weight: 300; 
+        }
+    }
+
+    .section-wrapper {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+
+        .section-content {
+            display: flex;
+            align-items: center;
+
+            div {
+                padding: 0 10px;
+            }
+
+            .prompt, .typed {
+                font-size: 2rem;
+                font-family: "Lucida Console", "Courier New", monospace;
+            }
+
+            .prompt {
+                font-weight: bold;
+            }
+
+            .section--after-text-hr {
+                width: 50% !important;
+                margin-left: 0;
+                height: 4px;
+                border: 0;
+                background: #ffffff;
+            }
+
+            .section-image {
+                img {
+                    width: 25vw;
+                    min-width: 400px;
+                }
+            }
+        }
+    }
+
+    a {
+        top: 100px;
+        border: 1px solid rgba(255, 255, 255, .25);
+        padding: 10px 18px;
+        font-family: "Exo";
+        font-weight: 600;
+        font-size: 14px;
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #ffffff;
+        transition: all .5s;
+
+        &:hover {
+            background-color: #ffffff;
+            border-color: $blue2;
+            color: $blue2;
+        }
+    }
+}
+
+.about {
+    clip-path: polygon(0 0, 100% 200px, 100% 100%, 0% 100%);
+    padding: 15vh 0;
+    .section-content {
+        transform: perspective(1200px) rotateY(15deg);
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    }
+}
+
+.meetings {
+    padding: 0 0 45vh 0;
+    .section-content {
+        transform: perspective(1200px) rotateY(-15deg);
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+
+        .command-wrapper {
+            min-width: 550px;
+            height: 100px;
+            max-height: 100px;
+            overflow: visible;
+            word-wrap: nowrap;
+        }
+    }
+}
+
+.contact {
+    margin-top: -35vh;
+    background: $blue1;
+    clip-path: polygon(79% 0, 100% 8vw, 100% 100%, 0 100%, 0 8vw);
+    padding: 20vh 0 20vh 0;
+
+    .join-us-title-wrapper {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0 50px 0;
+
+        h3 {
+            position: absolute;
+            font-family: "Azonix";
+            font-size: 40px;
+            font-weight: 500;
+            letter-spacing: 3.2px;
+            word-spacing: .1px;
+            color: $blue2;
+            white-space: nowrap;
+        }
+
+        span {
+            position: absolute;
+            font-family: "Exo";
+            font-size: 100px;
+            font-weight: 100;
+            white-space: nowrap;
+            color: #2e98fb24;
+            user-select: none;
+        }
+    }
+
+    .contact--contacts {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+
+        a {
+            margin: 0 50px;
+            border: 0;
+            cursor: pointer;
+            transition: color .3s;
+
+            i {
+                font-size: 5rem;
+            }
+
+            &:hover {
+                color: $blue2;
+                background-color: transparent; 
+            }
+        }
+
+        h4 {
+            text-align: center;
+        }
+    }
+}
+
+// Typing cursor styles
+.typed-cursor {
+    font-size: 2rem;
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+// Glitch (modified source: https://codepen.io/melzshawn1998/pen/xxdwORB?editors=1100)
+@mixin glitchCopy {
+    content: attr(data-text);
+    position: absolute;
+}
+
+.glitch {
+    position: relative;
+    letter-spacing: .1em;
+  
+    &::before {
+        @include glitchCopy;
+        left: 2px;
+        text-shadow: -2px 0 #ff00c1;
+        clip: rect(44px, 450px, 56px, 0);
+        animation: glitch-anim 5s infinite linear alternate-reverse;
+    }
+
+    &::after {
+        @include glitchCopy;
+        left: -2px;
+        text-shadow: -2px 0 blue, 2px 2px #ff00c1;
+        clip: rect(44px, 450px, 56px, 0);
+        animation: glitch-anim2 5s infinite linear alternate-reverse;
+    }  
+}
+
+@keyframes glitch-anim {
+    $steps: 20;
+    @for $i from 0 to $steps {
+      #{percentage($i*(1/$steps))} {
+        clip: rect(random(100) + px, 9999px, random(100) + px, 0);
+        transform: skew((random(100) / 100) + deg);
+      }
+    }
+}
+  
+@keyframes glitch-anim2 {
+    $steps: 20;
+    @for $i from 0 to $steps {
+      #{percentage($i*(1/$steps))} {
+        clip: rect(random(100) + px, 9999px, random(100) + px, 0);
+        transform: skew((random(100) / 100) + deg);
+      }
+    }
+}
+
+footer {
+    background: #000000;
+    text-align: center;
+    padding-top: 2vh;
+}

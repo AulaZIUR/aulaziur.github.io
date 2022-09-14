@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/img/icon/favicon.ico">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title></title>
+</head>
+<body>
+    <header>
+    <div class="top-bar-sticky-wrapper">
+        <div class="top-bar">
+            <div onclick="toggleNav()" class="hamburger">
+                <div id="ham--line1" class="ham--line-1"></div>
+                <div id="ham--line2" class="ham--line-2"></div>
+                <div id="ham--line3" class="ham--line-3"></div>
+            </div>
+            <h2 id="title" class="title">AULA C1BER</h2>
+        </div>
+    </div>
+    <nav id="sidenav" class="sidenav">
+        <img src="assets/img/aula_ciber-logo.png" alt="ziur-ehu" class="nav--aula-ciber-logo">
+        <a href="#">ABOUT</a>
+        <a href="#">BLOG</a>
+        <a href="#">CONTACT</a>
+        <br>
+        <select name="lang" id="lang" class="lang-select">
+            <option value="es">SPANISH</option>
+            <option value="en">ENGLISH</option>
+        </select>
+    </nav>
+    <div id="navOverlay" class="nav-overlay"></div>
+    <img src="assets/img/aula_ciber-logo.png" alt="ziur-ehu" class="header--aula-ciber-logo">
+</header>
+    <div id="main" class="main">
+    <!-- About us -->
+    <section id="about" class="about">
+        <div class="section-wrapper">
+            <div class="section-title">
+                <span>[</span>
+                <h2 class="glitch" data-text="4BOUT">4B0UT</h2>
+                <span>]</span>
+            </div>
+            <div class="section-content row">
+                <div class="section-text col-xl-6">
+                    <div class="command-wrapper">
+                        <span class="prompt">$ </span>
+                        <span id="whoamiCommand" class="typed">whoami</span>
+                    </div>
+                    <p>In the "Aula Ciber" <b>teachers and students of computer engineering and artificial intelligence</b> collaborate with the company ZIUR with the aim of expanding our knowledge in various fields of cybersecurity. No matter if you have a previous background or not, this is a classroom to dedicate your career to one of the paths that leads to computer security.</p>
+                    <hr class="section--after-text-hr">
+                    <br>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="section-image col-lg-6">
+                    <img src="assets/img/charla-ZIUR-1.jpg" alt="charla ZIUR 1">
+                </div>
+            </div>
+        </div> 
+    </section>
+
+    <!-- Information about meetings -->
+    <section id="meetings" class="meetings">
+        <div class="section-wrapper">
+            <div class="section-title">
+                <span>[</span>
+                <h2 class="glitch" data-text="MEET1NGS">MEET1NGS</h2>
+                <span>]</span>
+            </div>
+            <div class="section-content row">
+                <div class="section-image col-lg-6">
+                    <img src="assets/img/charla-ZIUR-2.jpg" alt="charla ZIUR 2">
+                </div>
+                <div class="section-text col-lg-6">
+                    <div class="command-wrapper">
+                        <span class="prompt">$ </span>
+                        <span id="knowledgeCommand" class="typed"></span>
+                    </div>
+                    <p>In our meetings we will work on new concepts of pentesting, networking, reversing, security in industrial environments and much more. This does not mean that the teachers will give us a theory class and that's it, here <b>everyone participates proactively</b> through exercises and challenges such as CTFs. In addition, anyone who is familiar with a topic can be encouraged to share their knowledge!</p>
+                    <hr class="section--after-text-hr">
+                    <br>
+                    <a href="#">View Schedule</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join us invitation -->
+    <section id="contact" class="contact">
+        <div class="section-wrapper">
+            <div class="section-title">
+                <span>[</span>
+                <h2 class="glitch" data-text="CONT4CT">CONT4CT</h2>
+                <span>]</span>
+            </div>
+            <div class="join-us-title-wrapper">
+                <h3 class="glitch">J01N US</h3>
+                <span>J01N US</span>
+            </div>
+            <p>If you want to focus your career in this world but do not know where to start, do not worry, we will present you a wide range of topics to choose from and specialize. The objective is to make you feel part of a community with which you can introduce yourself and carry out projects.</p>
+            <div class="contact--contacts">
+                <div class="contact--card">
+                    <a href="https://github.com/AulaZIUR"><i class="fa-brands fa-github"></i></a>
+                    <h4>AulaZIUR</h4>
+                </div>
+                <div class="contact--card">
+                    <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                    <h4>aula-ziur@ehu.eus</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+    <footer>
+    <small>Copyright @ 2022 AulaCiber</small>
+</footer>
+    <!-- Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"></script>
+<!-- Jquery -->
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<!-- MgGlitch -->
+<script src="/vendor/jquery/plugins/mgGlitch.min.js"></script>
+<!-- ThreeJS -->
+<script src="//cdn.rawgit.com/mrdoob/three.js/master/build/three.js"></script>
+<!-- Orbit controls -->
+<script src="//cdn.rawgit.com/mrdoob/three.js/master/examples/js/controls/OrbitControls.js"></script>
+<!-- Dat GUI -->
+<script src="https://r105.threejsfundamentals.org/threejs/../3rdparty/dat.gui.min.js"></script>
+<!-- ThreeJS postprocessing -->
+<script src="//cdn.rawgit.com/mrdoob/three.js/master/examples/js/postprocessing/EffectComposer.js"></script>
+<script src="//cdn.rawgit.com/mrdoob/three.js/master/examples/js/postprocessing/RenderPass.js"></script>
+<script src="//cdn.rawgit.com/mrdoob/three.js/master/examples/js/postprocessing/ShaderPass.js"></script>
+<script src="//cdn.rawgit.com/mrdoob/three.js/master/examples/js/postprocessing/GlitchPass.js"></script>
+<script src="//cdn.rawgit.com/mrdoob/three.js/master/examples/js/postprocessing/BokehPass.js"></script>
+<script src="//cdn.rawgit.com/mrdoob/three.js/master/examples/js/postprocessing/FilmPass.js"></script>
+<script src="//cdn.rawgit.com/mrdoob/three.js/master/examples/js/shaders/CopyShader.js"></script>
+<script src="//cdn.rawgit.com/mrdoob/three.js/master/examples/js/shaders/FilmShader.js"></script>
+<script src="//cdn.rawgit.com/mrdoob/three.js/master/examples/js/shaders/DigitalGlitch.js"></script>
+<script src="//cdn.rawgit.com/mrdoob/three.js/master/examples/js/shaders/BokehShader.js"></script>
+<script src="//cdn.rawgit.com/mrdoob/three.js/master/examples/js/shaders/VignetteShader.js"></script>
+<!-- Typed JS -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<!-- My JS -->
+<script type="text/javascript" src="assets/js/background.js"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>
