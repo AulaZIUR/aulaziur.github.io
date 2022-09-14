@@ -12,7 +12,7 @@ function init() {
     camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
     renderer = new THREE.WebGLRenderer();
     renderer.setSize(window.innerWidth, window.innerHeight);
-    document.getElementById("main").appendChild(renderer.domElement);
+    document.body.appendChild(renderer.domElement);
     composer = new THREE.EffectComposer(renderer);
 
     // Space background
@@ -33,7 +33,7 @@ function init() {
 
     starGeo.setAttribute("position", new THREE.BufferAttribute(positions, 3));
 
-    let sprite = new THREE.TextureLoader().load("assets/img/star.png");
+    let sprite = new THREE.TextureLoader().load("/assets/img/star.png");
     let starMaterial = new THREE.PointsMaterial({
         color: 0xaaaaaa,
         size: 0.3,

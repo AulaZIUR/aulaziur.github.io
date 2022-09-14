@@ -41,138 +41,138 @@ nav {
     position: relative;
 }
 
-header {
+.welcome-header {
     height: 100vh;
     position: relative; // in order to position the logo in the center
+}
 
-    .sidenav {
-        height: 100%;
-        width: 300px;
-        margin-left: -300px;
-        position: fixed;
-        top: 0;
-        left: 0;
-        background-color: #000;
-        overflow-x: hidden; /* Disable horizontal scroll */
-        padding-top: 85px; /* Place content 60px from the top */
-        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-        font-family: Barlow;
-        z-index: 2;
+.sidenav {
+    height: 100%;
+    width: 300px;
+    margin-left: -300px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 85px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    font-family: Barlow;
+    z-index: 2;
 
-        .nav--aula-ciber-logo {
-            display: block;
-            margin: 0px auto 25px auto;
-            width: 80%;
-        }
-
-        a {
-            padding: 10px 20px;
-            text-decoration: none;
-            font-size: 16px;
-            font-weight: 400;
-            color: #ffffff;
-            display: block;
-            transition: 0.3s;
-        }
-
-        .lang-select {
-            width: 100%;
-            background-color: transparent;
-            color: #ffffff;
-            border: 0;
-            padding: 10px 20px;
-            cursor: pointer;
-            transition: .3s;
-        }
-
-
-        a:hover, .lang-select:hover {
-            background-color: $blue2;
-        }
+    .nav--aula-ciber-logo {
+        display: block;
+        margin: 0px auto 25px auto;
+        width: 80%;
     }
 
-    .top-bar-sticky-wrapper {
-        position: fixed;
-        width: 100%;
-        background-color: rgba(10,10,10,.85);
-        z-index: 3;
+    a {
+        padding: 10px 20px;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 400;
+        color: #ffffff;
+        display: block;
+        transition: 0.3s;
+    }
 
-        .top-bar {
-            position: relative;
-            text-align: center;
-            margin: 0 20px;
-            
-            .title {
-                opacity: 1;
-                transition: opacity .5s;
-                margin: 0;
-                padding: 20px 0;
-                font-family: "Audiowide";
-            }
+    .lang-select {
+        width: 100%;
+        background-color: transparent;
+        color: #ffffff;
+        border: 0;
+        padding: 10px 20px;
+        cursor: pointer;
+        transition: .3s;
+    }
+
+
+    a:hover, .lang-select:hover {
+        background-color: $blue2;
+    }
+}
+
+.top-bar-sticky-wrapper {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(10,10,10,.85);
+    z-index: 3;
+
+    .top-bar {
+        position: relative;
+        text-align: center;
+        margin: 0 20px;
         
-            .title-hidden {
+        .title {
+            opacity: 1;
+            transition: opacity .5s;
+            margin: 0;
+            padding: 20px 0;
+            font-family: "Audiowide";
+        }
+    
+        .title-hidden {
+            opacity: 0;
+        }
+    
+        // Hamburguer button
+        .hamburger {
+            width: 70px;
+            height: 70px;
+            position: absolute;
+            left:0;
+            top: 50%; transform: translateY(-50%); // Vertical center
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            cursor: pointer;
+            z-index: 3;
+    
+            .ham--line-1 {
+                width: 34px;
+                height: 2px;
+                background-color: #ffffff;
+                transition: transform .5s;
+                transform-origin: bottom left;
+            }
+    
+            .ham--line-1-active {
+                transform: rotate(45deg);
+            }
+    
+            .ham--line-2 {
+                margin: 10px 0px 10px 0px;
+                width: 50px;
+                height: 2px;
+                background-color: #ffffff;
+                margin-left: 0;
+                transition: margin .5s;
+            }
+    
+            .ham--line-2-active {
                 opacity: 0;
             }
-        
-            // Hamburguer button
-            .hamburger {
-                width: 70px;
-                height: 70px;
-                position: absolute;
-                left:0;
-                top: 50%; transform: translateY(-50%); // Vertical center
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                cursor: pointer;
-                z-index: 3;
-        
-                .ham--line-1 {
-                    width: 34px;
-                    height: 2px;
-                    background-color: #ffffff;
-                    transition: transform .5s;
-                    transform-origin: bottom left;
-                }
-        
-                .ham--line-1-active {
-                    transform: rotate(45deg);
-                }
-        
-                .ham--line-2 {
-                    margin: 10px 0px 10px 0px;
-                    width: 50px;
-                    height: 2px;
-                    background-color: #ffffff;
-                    margin-left: 0;
-                    transition: margin .5s;
-                }
-        
-                .ham--line-2-active {
-                    opacity: 0;
-                }
-        
-                .ham--line-3 {
-                    width: 34px;
-                    height: 2px;
-                    background-color: #ffffff;
-                    transition: transform .5s;
-                    transform-origin: top left;
-                }
-        
-                .ham--line-3-active {
-                    transform: rotate(-45deg);
-                    transform-origin: top left;
-                }
-        
-                &:hover > .ham--line-2 {
-                    margin-left: 12px;
-                    transition: all .5s;
-                }
+    
+            .ham--line-3 {
+                width: 34px;
+                height: 2px;
+                background-color: #ffffff;
+                transition: transform .5s;
+                transform-origin: top left;
             }
-            .title {
-                text-align: center;
+    
+            .ham--line-3-active {
+                transform: rotate(-45deg);
+                transform-origin: top left;
             }
+    
+            &:hover > .ham--line-2 {
+                margin-left: 12px;
+                transition: all .5s;
+            }
+        }
+        .title {
+            text-align: center;
         }
     }
 }

@@ -1,0 +1,114 @@
+body { margin: 0 !important; height: 100vh; color: #ffffff; font-family: Exo; font-weight: 300; }
+
+@media (max-width: 992px) { .about img { margin-top: 5vh; } }
+@media (max-width: 576px) { .section-wrapper { width: 95% !important; } }
+canvas { width: 100vw; height: 100vh; display: block; position: fixed; top: 0; left: 0; z-index: -9999; }
+
+nav { background-color: transparent; position: relative; }
+
+.welcome-header { height: 100vh; position: relative; }
+
+.sidenav { height: 100%; width: 300px; margin-left: -300px; position: fixed; top: 0; left: 0; background-color: #000; overflow-x: hidden; /* Disable horizontal scroll */ padding-top: 85px; /* Place content 60px from the top */ transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */ font-family: Barlow; z-index: 2; }
+.sidenav .nav--aula-ciber-logo { display: block; margin: 0px auto 25px auto; width: 80%; }
+.sidenav a { padding: 10px 20px; text-decoration: none; font-size: 16px; font-weight: 400; color: #ffffff; display: block; transition: 0.3s; }
+.sidenav .lang-select { width: 100%; background-color: transparent; color: #ffffff; border: 0; padding: 10px 20px; cursor: pointer; transition: .3s; }
+.sidenav a:hover, .sidenav .lang-select:hover { background-color: #21847E; }
+
+.top-bar-sticky-wrapper { position: fixed; width: 100%; background-color: rgba(10, 10, 10, 0.85); z-index: 3; }
+.top-bar-sticky-wrapper .top-bar { position: relative; text-align: center; margin: 0 20px; }
+.top-bar-sticky-wrapper .top-bar .title { opacity: 1; transition: opacity .5s; margin: 0; padding: 20px 0; font-family: "Audiowide"; }
+.top-bar-sticky-wrapper .top-bar .title-hidden { opacity: 0; }
+.top-bar-sticky-wrapper .top-bar .hamburger { width: 70px; height: 70px; position: absolute; left: 0; top: 50%; transform: translateY(-50%); display: flex; flex-direction: column; justify-content: center; cursor: pointer; z-index: 3; }
+.top-bar-sticky-wrapper .top-bar .hamburger .ham--line-1 { width: 34px; height: 2px; background-color: #ffffff; transition: transform .5s; transform-origin: bottom left; }
+.top-bar-sticky-wrapper .top-bar .hamburger .ham--line-1-active { transform: rotate(45deg); }
+.top-bar-sticky-wrapper .top-bar .hamburger .ham--line-2 { margin: 10px 0px 10px 0px; width: 50px; height: 2px; background-color: #ffffff; margin-left: 0; transition: margin .5s; }
+.top-bar-sticky-wrapper .top-bar .hamburger .ham--line-2-active { opacity: 0; }
+.top-bar-sticky-wrapper .top-bar .hamburger .ham--line-3 { width: 34px; height: 2px; background-color: #ffffff; transition: transform .5s; transform-origin: top left; }
+.top-bar-sticky-wrapper .top-bar .hamburger .ham--line-3-active { transform: rotate(-45deg); transform-origin: top left; }
+.top-bar-sticky-wrapper .top-bar .hamburger:hover > .ham--line-2 { margin-left: 12px; transition: all .5s; }
+.top-bar-sticky-wrapper .top-bar .title { text-align: center; }
+
+.nav-overlay { position: absolute; width: 0vw; /* Change with JS */ height: 100vh; background-color: #000000; opacity: .5; transition: width .5s; }
+
+.nav-overlay-active { width: 100vw; z-index: 1; }
+
+.header--aula-ciber-logo { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+
+section { background-color: rgba(0, 0, 0, 0.8); min-width: 400px; }
+section .section-title { display: flex; justify-content: center; align-items: center; }
+section .section-title h2 { font-family: Hacked; font-size: 4.5vw; }
+section .section-title span { font-size: 6vw; margin: 0 1.5vw .5vw 1.5vw; color: rgba(255, 255, 255, 0.3); font-family: Audiowide; font-weight: 300; }
+section .section-wrapper { width: 60%; margin-left: auto; margin-right: auto; }
+section .section-wrapper .section-content { display: flex; align-items: center; }
+section .section-wrapper .section-content div { padding: 0 10px; }
+section .section-wrapper .section-content .prompt, section .section-wrapper .section-content .typed { font-size: 2rem; font-family: "Lucida Console", "Courier New", monospace; }
+section .section-wrapper .section-content .prompt { font-weight: bold; }
+section .section-wrapper .section-content .section--after-text-hr { width: 50% !important; margin-left: 0; height: 4px; border: 0; background: #ffffff; }
+section .section-wrapper .section-content .section-image img { width: 25vw; min-width: 400px; }
+section a { top: 100px; border: 1px solid rgba(255, 255, 255, 0.25); padding: 10px 18px; font-family: "Exo"; font-weight: 600; font-size: 14px; letter-spacing: 0.01em; text-transform: uppercase; text-decoration: none; color: #ffffff; transition: all .5s; }
+section a:hover { background-color: #ffffff; border-color: #21847E; color: #21847E; }
+
+.about { clip-path: polygon(0 0, 100% 200px, 100% 100%, 0% 100%); padding: 15vh 0; }
+.about .section-content { transform: perspective(1200px) rotateY(15deg); box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px; }
+
+.meetings { padding: 0 0 45vh 0; }
+.meetings .section-content { transform: perspective(1200px) rotateY(-15deg); box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px; }
+.meetings .section-content .command-wrapper { min-width: 550px; height: 100px; max-height: 100px; overflow: visible; word-wrap: nowrap; }
+
+.contact { margin-top: -35vh; background: #004A91; clip-path: polygon(79% 0, 100% 8vw, 100% 100%, 0 100%, 0 8vw); padding: 20vh 0 20vh 0; }
+.contact .join-us-title-wrapper { position: relative; display: flex; align-items: center; justify-content: center; padding: 20px 0 50px 0; }
+.contact .join-us-title-wrapper h3 { position: absolute; font-family: "Azonix"; font-size: 40px; font-weight: 500; letter-spacing: 3.2px; word-spacing: .1px; color: #21847E; white-space: nowrap; }
+.contact .join-us-title-wrapper span { position: absolute; font-family: "Exo"; font-size: 100px; font-weight: 100; white-space: nowrap; color: #2e98fb24; user-select: none; }
+.contact .contact--contacts { display: flex; justify-content: center; margin-top: 40px; }
+.contact .contact--contacts a { margin: 0 50px; border: 0; cursor: pointer; transition: color .3s; }
+.contact .contact--contacts a i { font-size: 5rem; }
+.contact .contact--contacts a:hover { color: #21847E; background-color: transparent; }
+.contact .contact--contacts h4 { text-align: center; }
+
+.typed-cursor { font-size: 2rem; opacity: 1; -webkit-animation: blink 0.7s infinite; -moz-animation: blink 0.7s infinite; animation: blink 0.7s infinite; }
+
+.glitch { position: relative; letter-spacing: .1em; }
+.glitch::before { content: attr(data-text); position: absolute; left: 2px; text-shadow: -2px 0 #ff00c1; clip: rect(44px, 450px, 56px, 0); animation: glitch-anim 5s infinite linear alternate-reverse; }
+.glitch::after { content: attr(data-text); position: absolute; left: -2px; text-shadow: -2px 0 blue, 2px 2px #ff00c1; clip: rect(44px, 450px, 56px, 0); animation: glitch-anim2 5s infinite linear alternate-reverse; }
+
+@keyframes glitch-anim { 0% { clip: rect(70px, 9999px, 59px, 0); transform: skew(0.1deg); }
+  5% { clip: rect(55px, 9999px, 55px, 0); transform: skew(0.87deg); }
+  10% { clip: rect(84px, 9999px, 89px, 0); transform: skew(0.11deg); }
+  15% { clip: rect(27px, 9999px, 18px, 0); transform: skew(0.05deg); }
+  20% { clip: rect(34px, 9999px, 16px, 0); transform: skew(0.79deg); }
+  25% { clip: rect(75px, 9999px, 79px, 0); transform: skew(0.52deg); }
+  30% { clip: rect(58px, 9999px, 53px, 0); transform: skew(0.67deg); }
+  35% { clip: rect(13px, 9999px, 62px, 0); transform: skew(0.42deg); }
+  40% { clip: rect(13px, 9999px, 26px, 0); transform: skew(0.4deg); }
+  45% { clip: rect(57px, 9999px, 8px, 0); transform: skew(0.86deg); }
+  50% { clip: rect(48px, 9999px, 44px, 0); transform: skew(0.24deg); }
+  55% { clip: rect(58px, 9999px, 35px, 0); transform: skew(0.67deg); }
+  60% { clip: rect(64px, 9999px, 11px, 0); transform: skew(0.66deg); }
+  65% { clip: rect(53px, 9999px, 59px, 0); transform: skew(0.3deg); }
+  70% { clip: rect(46px, 9999px, 70px, 0); transform: skew(0.08deg); }
+  75% { clip: rect(60px, 9999px, 3px, 0); transform: skew(0.38deg); }
+  80% { clip: rect(94px, 9999px, 47px, 0); transform: skew(0.55deg); }
+  85% { clip: rect(39px, 9999px, 43px, 0); transform: skew(0.75deg); }
+  90% { clip: rect(55px, 9999px, 3px, 0); transform: skew(0.32deg); }
+  95% { clip: rect(20px, 9999px, 14px, 0); transform: skew(0.06deg); } }
+@keyframes glitch-anim2 { 0% { clip: rect(55px, 9999px, 18px, 0); transform: skew(0.17deg); }
+  5% { clip: rect(16px, 9999px, 9px, 0); transform: skew(0.87deg); }
+  10% { clip: rect(91px, 9999px, 68px, 0); transform: skew(0.46deg); }
+  15% { clip: rect(73px, 9999px, 74px, 0); transform: skew(0.3deg); }
+  20% { clip: rect(93px, 9999px, 2px, 0); transform: skew(0.39deg); }
+  25% { clip: rect(97px, 9999px, 24px, 0); transform: skew(0.52deg); }
+  30% { clip: rect(96px, 9999px, 41px, 0); transform: skew(0.49deg); }
+  35% { clip: rect(79px, 9999px, 70px, 0); transform: skew(0.03deg); }
+  40% { clip: rect(86px, 9999px, 42px, 0); transform: skew(0.35deg); }
+  45% { clip: rect(94px, 9999px, 1px, 0); transform: skew(0.01deg); }
+  50% { clip: rect(50px, 9999px, 31px, 0); transform: skew(0.36deg); }
+  55% { clip: rect(41px, 9999px, 18px, 0); transform: skew(0.73deg); }
+  60% { clip: rect(7px, 9999px, 73px, 0); transform: skew(0.18deg); }
+  65% { clip: rect(90px, 9999px, 26px, 0); transform: skew(0.18deg); }
+  70% { clip: rect(8px, 9999px, 74px, 0); transform: skew(0.28deg); }
+  75% { clip: rect(85px, 9999px, 44px, 0); transform: skew(0.01deg); }
+  80% { clip: rect(73px, 9999px, 53px, 0); transform: skew(0.5deg); }
+  85% { clip: rect(84px, 9999px, 62px, 0); transform: skew(0.88deg); }
+  90% { clip: rect(80px, 9999px, 33px, 0); transform: skew(0.4deg); }
+  95% { clip: rect(78px, 9999px, 97px, 0); transform: skew(0.84deg); } }
+footer { background: #000000; text-align: center; padding-top: 2vh; }

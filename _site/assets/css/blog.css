@@ -1,0 +1,22 @@
+@media (min-width: 576px) { .container-small { width: 400px; } }
+@media (min-width: 768px) { .container-small { width: 800px; } }
+@media (min-width: 992px) { .container-small { width: 800px; } }
+@media (min-width: 1200px) { .container-small { width: 800px; } }
+.container-small, .container-large { max-width: 100%; margin: 0 auto; }
+
+.title-container { padding-top: 125px; }
+
+.blog-index-title { position: relative; padding: 35px; }
+.blog-index-title::before { display: block; position: absolute; height: 100%; content: ' '; border-width: 8px 0px 8px 8px; border-color: #ffffff; border-style: solid; width: 25px; top: 0; left: 0; }
+.blog-index-title::after { display: block; position: absolute; height: 100%; content: ' '; border-width: 8px 8px 8px 0px; border-color: #ffffff; border-style: solid; width: 25px; top: 0; right: 0; }
+.blog-index-title h2 { font-family: Hacked; font-size: 3.5vw; }
+.blog-index-title hr { height: 10px; background-color: #ffffff; opacity: 1; }
+
+.post-index-bg { background-color: #000000; margin-top: 150px; padding: 100px 0; }
+.post-index-bg .post-index { list-style: none; font-family: "Exo"; }
+.post-index-bg .post-index .post-item { padding: 30px; }
+.post-index-bg .post-index .post-item .day { font-size: 4rem; font-weight: 600; }
+.post-index-bg .post-index .post-item .month-year { font-size: .7rem; text-transform: uppercase; font-weight: 600; letter-spacing: .01em; margin: -15px 0 0 10px; }
+.post-index-bg .post-index .post-item .tag { font-size: .7rem; font-weight: 600; color: #21847E; text-transform: uppercase; text-decoration: none; }
+.post-index-bg .post-index .post-item .post-title { font-size: 1.7rem; font-weight: 600; margin: .3em 0; }
+.post-index-bg .post-index .post-item .post-title a { color: #ffffff; text-decoration: none; }

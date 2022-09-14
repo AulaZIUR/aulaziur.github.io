@@ -2,9 +2,11 @@
 <html lang="en">
 {% include head.html %}
 <body>
-    {% include header.html %}
-    {% include content.html %}
+    {{content}}
     {% include footer.html %}
-    {% include scripts.html %}
+    <!-- ThreeJS background -->
+    <script type="text/javascript" src="/assets/js/background.js"></script>
+    <!-- Sidenav script -->
+    <script type="text/javascript" src="/assets/js/sidenav.js"></script>
 </body>
 </html>

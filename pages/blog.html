@@ -1,0 +1,39 @@
+---
+layout: default
+permalink: /blog/
+---
+{% include header.html %}
+<div class="container-small title-container">
+    <div class="blog-index-title">
+        <h2>Blog</h2>
+        <hr>
+    </div>
+</div>
+<div class="post-index-bg">
+    <div class="container-small">
+        <ul class="post-index">
+            {% for post in site.posts %}
+                <li class="post-item">
+                <div class="post-date row">
+                    <div class="date col-lg-2">
+                        <div class="day">{{ post.date | date: '%d' }}</div>
+                        <div class="month-year">
+                            {{ post.date | date: '%B' | slice: 0, 3}} {{ post.date | date: '%Y'}}
+                        </div>
+                    </div>
+                    <div class="post-content col-lg-10">
+                        {% for tag in post.tags %}
+                        <a href="#" class="tag">{{ tag }}</a>
+                        {% endfor %}
+                        <br>
+                        <h2 class="post-title">
+                            <a href="{{ post.url }}">{{ post.title }}</a>
+                        </h2>
+                        {{ post.excerpt }}
+                    </div>
+                </div>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
