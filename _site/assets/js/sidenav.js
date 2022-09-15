@@ -5,9 +5,10 @@ function toggleNav() {
     const line2 = document.getElementById("ham--line2");
     const line3 = document.getElementById("ham--line3");
     const overlay = document.getElementById("navOverlay");
-    const title = document.getElementById("title");
+    const topBar = document.getElementById("topBar");
 
     nav.style.marginLeft = nav.style.marginLeft == "0px" ? "-300px" : "0px";
+    nav
         
     // Toggle hamburguer button
     line2.classList.toggle("ham--line-2-active");
@@ -18,5 +19,5 @@ function toggleNav() {
     overlay.classList.toggle("nav-overlay-active");
 
     // Hide title
-    title.classList.toggle("title-hidden");
+    topBar.classList.toggle("top-bar-hidden");
 }

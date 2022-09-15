@@ -45,7 +45,7 @@ nav {
 }
 
 .welcome-header {
-    height: 100vh;
+    min-height: 100vh;
     position: relative; // in order to position the logo in the center
 }
 
@@ -98,13 +98,70 @@ nav {
 .top-bar-sticky-wrapper {
     position: fixed;
     width: 100%;
-    background-color: rgba(10,10,10,.85);
     z-index: 3;
+
+    // Hamburguer button
+    .hamburger {
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        left: 20px;
+        top: 50%; transform: translateY(-50%); // Vertical center
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        cursor: pointer;
+        z-index: 3;
+
+        .ham--line-1 {
+            width: 34px;
+            height: 2px;
+            background-color: #ffffff;
+            transition: transform .5s;
+            transform-origin: bottom left;
+        }
+
+        .ham--line-1-active {
+            transform: rotate(45deg);
+        }
+
+        .ham--line-2 {
+            margin: 10px 0px 10px 0px;
+            width: 50px;
+            height: 2px;
+            background-color: #ffffff;
+            margin-left: 0;
+            transition: margin .5s;
+        }
+
+        .ham--line-2-active {
+            opacity: 0;
+        }
+
+        .ham--line-3 {
+            width: 34px;
+            height: 2px;
+            background-color: #ffffff;
+            transition: transform .5s;
+            transform-origin: top left;
+        }
+
+        .ham--line-3-active {
+            transform: rotate(-45deg);
+            transform-origin: top left;
+        }
+
+        &:hover > .ham--line-2 {
+            margin-left: 12px;
+            transition: all .5s;
+        }
+    }
 
     .top-bar {
         position: relative;
         text-align: center;
-        margin: 0 20px;
+        background-color: rgba(10,10,10,.85);
+        transition: opacity .3s;
         
         .title {
             opacity: 1;
@@ -113,70 +170,14 @@ nav {
             padding: 20px 0;
             font-family: "Audiowide";
         }
-    
-        .title-hidden {
-            opacity: 0;
-        }
-    
-        // Hamburguer button
-        .hamburger {
-            width: 70px;
-            height: 70px;
-            position: absolute;
-            left:0;
-            top: 50%; transform: translateY(-50%); // Vertical center
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            cursor: pointer;
-            z-index: 3;
-    
-            .ham--line-1 {
-                width: 34px;
-                height: 2px;
-                background-color: #ffffff;
-                transition: transform .5s;
-                transform-origin: bottom left;
-            }
-    
-            .ham--line-1-active {
-                transform: rotate(45deg);
-            }
-    
-            .ham--line-2 {
-                margin: 10px 0px 10px 0px;
-                width: 50px;
-                height: 2px;
-                background-color: #ffffff;
-                margin-left: 0;
-                transition: margin .5s;
-            }
-    
-            .ham--line-2-active {
-                opacity: 0;
-            }
-    
-            .ham--line-3 {
-                width: 34px;
-                height: 2px;
-                background-color: #ffffff;
-                transition: transform .5s;
-                transform-origin: top left;
-            }
-    
-            .ham--line-3-active {
-                transform: rotate(-45deg);
-                transform-origin: top left;
-            }
-    
-            &:hover > .ham--line-2 {
-                margin-left: 12px;
-                transition: all .5s;
-            }
-        }
+
         .title {
             text-align: center;
         }
+    }
+
+    .top-bar-hidden {
+        opacity: 0;
     }
 }
 
