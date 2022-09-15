@@ -7,7 +7,7 @@
 .title-container .blog-index-title .date-tags .tag:hover { color: #21847E; }
 .title-container .blog-index-title .date-tags hr { flex-grow: .97; }
 
-.post-bg { background-color: #000000; padding-top: 100px; }
+.post-bg { background-color: #0a0a0a; padding-top: 100px; }
 
 .post h1, .post h2, .post h3, .post h4, .post h5, .post h6 { width: fit-content; position: relative; padding: 20px; font-family: Azonix; font-weight: 400; margin: 0 auto; letter-spacing: .1em; }
 .post h1::before, .post h2::before, .post h3::before, .post h4::before, .post h5::before, .post h6::before { display: block; position: absolute; height: 100%; content: ' '; border-width: 6px 0px 6px 6px; border-color: rgba(255, 255, 255, 0.5); border-style: solid; width: 25px; top: 0; left: 0; }
