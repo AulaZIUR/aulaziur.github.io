@@ -1,0 +1,20 @@
+.title-bg { background: linear-gradient(to bottom, transparent 0%, #0a0a0a 100%); }
+
+.title-container { position: relative; min-height: 50vh; }
+.title-container .blog-index-title { width: inherit; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+.title-container .blog-index-title .date-tags { display: flex; align-items: center; justify-content: space-between; text-transform: uppercase; font-weight: 600; }
+.title-container .blog-index-title .date-tags .tag { color: #ffffff; text-decoration: none; transition: color .3s; }
+.title-container .blog-index-title .date-tags .tag:hover { color: #21847E; }
+.title-container .blog-index-title .date-tags hr { flex-grow: .97; }
+
+.post-bg { background-color: #000000; padding-top: 100px; }
+
+.post h1, .post h2, .post h3, .post h4, .post h5, .post h6 { width: fit-content; position: relative; padding: 20px; font-family: Azonix; font-weight: 400; margin: 0 auto; letter-spacing: .1em; }
+.post h1::before, .post h2::before, .post h3::before, .post h4::before, .post h5::before, .post h6::before { display: block; position: absolute; height: 100%; content: ' '; border-width: 6px 0px 6px 6px; border-color: rgba(255, 255, 255, 0.5); border-style: solid; width: 25px; top: 0; left: 0; }
+.post h1::after, .post h2::after, .post h3::after, .post h4::after, .post h5::after, .post h6::after { display: block; position: absolute; height: 100%; content: ' '; border-width: 6px 6px 6px 0px; border-color: rgba(255, 255, 255, 0.5); border-style: solid; width: 25px; top: 0; right: 0; }
+.post h1 h2, .post h2 h2, .post h3 h2, .post h4 h2, .post h5 h2, .post h6 h2 { font-family: Hacked; font-size: 3.5vw; }
+.post h1 hr, .post h2 hr, .post h3 hr, .post h4 hr, .post h5 hr, .post h6 hr { height: 10px; background-color: #ffffff; opacity: 1; }
+.post li { padding-left: .5em; }
+.post a { text-decoration: none; color: #ffffff; font-weight: bold; transition: color .3s; }
+.post a:hover { color: #21847E; }
+.post strong { font-weight: 600; }

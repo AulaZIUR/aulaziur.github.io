@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="/assets/css/index.css">
     <link rel="stylesheet" href="/assets/css/blog.css">
     <link rel="stylesheet" href="/assets/css/post.css">
-    <title></title>
+    <title>My Awesome Photoblog</title>
     <!-- Third party libraries -->
     <!-- Bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"></script>
@@ -68,28 +68,13 @@
     </nav>
     <div id="navOverlay" class="nav-overlay"></div>
 </header>
-<div class="title-bg">
-    <div class="container-small title-container">
-        <div class="blog-index-title">
-            <h2>Blog</h2>
-            <hr>
-        </div>
-    </div>
-</div>
-<div class="post-index-bg">
-    <div class="container-small">
-        <ul class="post-index">
-            
-                <li class="post-item">
-                <div class="post-date row">
-                    <div class="date col-lg-2">
-                        <div class="day">14</div>
-                        <div class="month-year">
-                            Sep 2022
-                        </div>
-                    </div>
-                    <div class="post-content col-lg-10">
-                        
+    <div class="title-bg">
+        <div class="container-small title-container">
+            <div class="blog-index-title">
+                <h2>My Awesome Photoblog</h2>
+                <div class="date-tags">
+                    <small>
+                        14 / September / 2022 - 
                         <a href="#" class="tag">web</a>
                         
                         <a href="#" class="tag">sql-injection</a>
@@ -98,11 +83,16 @@
                         
                         <a href="#" class="tag">privilege-escalation</a>
                         
-                        <br>
-                        <h2 class="post-title">
-                            <a href="/2022/09/14/my-awesome-photoblog.html">My Awesome Photoblog</a>
-                        </h2>
-                        <p>We started the ZIUR classroom with our first meeting on June 22nd. The objective of this seminar was to learn some <strong>techniques of web exploitation and post-exploitation privilege escalation</strong>, in particular:</p>
+                    </small>
+                    <hr>
+                </div>  
+            </div>
+        </div>
+    </div>
+
+    <div class="post-bg">
+        <div class="post container-small">
+            <p>We started the ZIUR classroom with our first meeting on June 22nd. The objective of this seminar was to learn some <strong>techniques of web exploitation and post-exploitation privilege escalation</strong>, in particular:</p>
 <ul>
   <li>Web fuzzing</li>
   <li>SQL inyections</li>
@@ -111,14 +101,30 @@
   <li>Escalación de privilegios en Linux</li>
 </ul>
 
+<p>To do so, we took on My Awesome Photoblog, a general-purpose blog where users work with security measures that leave much to be desired. We then discovered how <strong>an incorrect treatment of URL parameters can lead us to become <em>root</em> users of the server where the web page is hosted</strong>.</p>
 
-                    </div>
-                </div>
-                </li>
-            
-        </ul>
+<p style="text-align: center;"><img src="/assets/img/posts/myAwesomePhotoblog.png" alt="My Awesome Photoblog site" width="700" /></p>
+
+<p>From <a href="https://docs.google.com/document/d/1i8jwir6FyGaZXFy0gh6LV2JA108AL695aNFTY_FAl84/edit">here</a> you can access the tools used for the seminar, as well as a series of videos where Juanan explains step by step the solution. You also have available the <a href="http://localhost:8080/downloads/23-06-2022-MyAwesomePhotoblog.pdf">writeup</a> of the machine, with some additions (such as cracking the administrator password and explanations of some topics to go into more detail) and focused from the Kali distribution instead of Windows.</p>
+
+<p>After <em>pwning</em> the machine, we concluded the seminar with the proposal of some exercises to work on our own, in which we included:</p>
+<ol>
+  <li>Automating the SQL Injection process using the <em>sqlmap</em> tool.</li>
+  <li>Embedding php code inside an image.</li>
+  <li>Fixing security bugs:
+    <ul>
+      <li>Filter URL parameters correctly.</li>
+      <li>Prevent the server from issuing debug information on errors.</li>
+      <li>Avoid web fuzzing by installing fail2ban.</li>
+    </ul>
+  </li>
+</ol>
+
+<p>This was the first and last seminar of the 2021-2022 course, a bit introductory but at the same time a good way to open the doors to the world of web pentesting. We are looking forward to next year, where we will learn many more techniques to get started in malware analysis, reversing, cryptography… but not only that, we will also have talks from high caliber guests!</p>
+
+
+        </div>
     </div>
-</div>
     <footer>
     <small>Copyright @ 2022 AulaCiber</small>
 </footer>

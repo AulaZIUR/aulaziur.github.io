@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+    {% include header.html %}
+    <div class="title-bg">
+        <div class="container-small title-container">
+            <div class="blog-index-title">
+                <h2>{{page.title}}</h2>
+                <div class="date-tags">
+                    <small>
+                        {{page.date | date: '%d / %B / %Y'}} - {% for tag in page.tags %}
+                        <a href="#" class="tag">{{ tag }}</a>
+                        {% endfor %}
+                    </small>
+                    <hr>
+                </div>  
+            </div>
+        </div>
+    </div>
+
+    <div class="post-bg">
+        <div class="post container-small">
+            {{content}}
+        </div>
+    </div>
+    {% include footer.html %}
+    <!-- ThreeJS background -->
+    <script type="text/javascript" src="/assets/js/background.js"></script>
+    <!-- Sidenav script -->
+    <script type="text/javascript" src="/assets/js/sidenav.js"></script>
+</body>
+</html>

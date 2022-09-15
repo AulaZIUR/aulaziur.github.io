@@ -7,6 +7,9 @@ body {
     color: #ffffff;
     font-family: Exo;
     font-weight: 300;
+    // Place the footer to the bottom
+    display: flex;
+    flex-direction: column;
 }
 
 // lg
@@ -66,7 +69,7 @@ nav {
         width: 80%;
     }
 
-    a {
+    .nav-item {
         padding: 10px 20px;
         text-decoration: none;
         font-size: 16px;
@@ -378,6 +381,13 @@ section {
     animation: blink 0.7s infinite;
 }
 
+footer {
+    margin-top: auto;
+    background: #000000;
+    text-align: center;
+    padding-top: 2vh;
+}
+
 // Glitch (modified source: https://codepen.io/melzshawn1998/pen/xxdwORB?editors=1100)
 @mixin glitchCopy {
     content: attr(data-text);
@@ -423,10 +433,4 @@ section {
         transform: skew((random(100) / 100) + deg);
       }
     }
-}
-
-footer {
-    background: #000000;
-    text-align: center;
-    padding-top: 2vh;
 }
