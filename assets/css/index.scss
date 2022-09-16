@@ -21,8 +21,39 @@ body {
 
 // xs
 @media (max-width: 576px) {
+    // There is almost no overflow, but just in case
+   
+
+    h2 {
+        font-size: 10vw !important;
+    }
+
+    .title {
+        margin-left: 60px !important;
+    }
+
+    .section-img {
+        min-width: 330px !important;
+    }
+
     .section-wrapper {
         width: 95% !important;
+    }
+
+    .welcome-header {
+        min-height: 50vh !important;
+    }
+
+    .about {
+        margin-top: -80px !important;
+    }
+
+    .command-wrapper {
+        min-width: 400px !important;
+    }
+
+    .prompt, .typed {
+        font-size: 1.3em !important;
     }
 }
 
@@ -201,6 +232,8 @@ nav {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 90vw;
+    max-width: 700px;
 }
 
 section {
@@ -287,7 +320,7 @@ section {
 }
 
 .about {
-    clip-path: polygon(0 0, 100% 200px, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 100px, 100% 100%, 0% 100%);
     padding: 15vh 0;
     .section-content {
         transform: perspective(1200px) rotateY(15deg);
