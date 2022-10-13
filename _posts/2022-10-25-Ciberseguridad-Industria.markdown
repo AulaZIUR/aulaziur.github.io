@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Las claves de la ciberseguridad en la industria y la importancia de evaluar el nivel de robustez y protección de los sistemas de control"
-date: 2022-10-25 10:00:08 +0200
+date: 2022-10-13 10:00:08 +0200
 tags: [Ciberseguridad industrial, protección de sistemas de control]
 ---
 ## Contenido de la sesión:
