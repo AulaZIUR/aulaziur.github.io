@@ -1,16 +1,9 @@
 ---
 layout: post
 title: "Las claves de la ciberseguridad en la industria y la importancia de evaluar el nivel de robustez y protección de los sistemas de control"
-date: 2022-10-13 18:54:08 +0200
+date: 2022-10-25 10:00:08 +0200
 tags: [Ciberseguridad industrial, protección de sistemas de control]
 ---
-
-# Las claves de la ciberseguridad en la industria y la importancia de evaluar el nivel de robustez y protección de los sistemas de control
-
-## Fecha/hora/lugar: 25 de octubre de 2022 / de 10:00 a 12:00 / aula Ziur
-
-## Presentado por: Ikerlan
-
 ## Contenido de la sesión:
 
 Los sistemas de control tienen un papel fundamental en la industria (control de procesos) así como en otros muchos sectores (automoción, ferroviario, control de accesos, etc.). En el desarrollo de estos sistemas se han priorizado históricamente los requisitos de seguridad funcional (safety) y tiempo real, dotándolos de escasa o nula ciberseguridad. La irrupción del paradigma IoT y el constante aumento de la conectividad han propiciado que estos dispositivos hayan quedado expuestos a ataques remotos, convirtiéndose en muchos casos en el eslabón más débil.
@@ -20,6 +13,10 @@ En los últimos años esta situación está cambiando y los fabricantes están v
 En esta ponencia se profundizará en la seguridad de los sistemas de control como factor clave para proteger la industria, garantizar la prestación del servicio de forma confiable, y posibilitar el despliegue de nuevos servicios. Se explicarán los riesgos, las ventajas de considerar la seguridad desde el diseño, las posibles soluciones tecnológicas, los casos de aplicación y el marco normativo.
 
 En los sistemas de control adquiere una especial relevancia el descubrimiento y corrección de vulnerabilidades en las fases de desarrollo, antes del despliegue y operación en campo. Para lograr este objetivo existen muchos enfoques, siendo las técnicas de fuzzing una de las opciones más eficaces. En esta sesión se explicarán los principios de las técnicas de fuzzing y se planteará un ejercicio práctico para descubrir vulnerabilidades en el software mediante la aplicación de estas técnicas.
+
+## Fecha/hora/lugar: 25 de octubre de 2022 / de 10:00 a 12:00 / aula Ziur
+
+## Presentado por: Ikerlan
 
 ## Ponentes
 
