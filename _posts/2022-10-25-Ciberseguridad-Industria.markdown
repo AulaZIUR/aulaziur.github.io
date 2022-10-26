@@ -23,3 +23,10 @@ En los sistemas de control adquiere una especial relevancia el descubrimiento y 
 **David González** es Ingeniero en Automática y Electrónica Industrial por Mondragón Unibertsitatea (2005), y Máster en Procesamiento de Señal y Comunicaciones por la Universidad de Edimburgo (2006). Investigador en el centro tecnológico IKERLAN desde 2007, es responsable desde 2016 del equipo de investigación en Ciberseguridad en Sistemas Embebidos, en el área de Ciberseguridad Industrial. Acumula más de 10 años de experiencia en el diseño y desarrollo de plataformas embebidas para los sectores de salud, transporte y energía. Ha participado en proyectos de I+D para empresas como OSATU, ALSTOM HYDRO, ALSTOM WIND, GE, SIEMENS-GAMESA, CAF, etc. siendo el responsable del desarrollo y mantenimiento de un sistema de supervisión y control de turbinas eólicas, con requisitos de tiempo real, seguridad funcional y ciberseguridad. En el pasado, ha liderado la actividad investigadora en plataformas de referencia, centrada en nuevas plataformas hardware, virtualización y sistemas de criticidad mixta, y participado en diversos proyectos de investigación de ámbito nacional o europeo (FP7 y H2020). Participa desde su creación en las actividades ligadas al laboratorio de evaluación de ciberseguridad de producto de IKERLAN, perteneciente al BDIH.
 
 **Maialen Eceiza Olaizola**, PhD, obtuvo el Grado de Ingeniería Industrial de Electrónica y Automoción (2017) y el Máster en Ingeniería en Sistemas Empotrados (2019), ambos en la universidad del País Vasco. Posteriormente realizó su tesis doctoral en Mondragón Unibertsitatea (2022), centrada en la aplicación de técnicas de smart fuzzing a los sistemas embebidos. Desde junio de 2022 desarrolla su actividad en el Equipo de Especialización de Ciberseguridad en Sistemas Embebidos en IKERLAN, y participa activamente en proyectos de investigación y transferencia tecnológica a la industria.
+
+## Reacciones al evento
+
+
+* Ikerlan, Maialen Eceiza, LinkedIn, #fotos <https://www.linkedin.com/feed/update/urn:li:activity:6990933528418902016/>
+
+* UPV/EHU, Juanan Pereira, Twitter #fotos <https://twitter.com/juanan/status/1584906780844367872>
