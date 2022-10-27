@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/img/icon/favicon.ico">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="/assets/css/fonts.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/index.css">
+    <link rel="stylesheet" href="/assets/css/blog.css">
+    <link rel="stylesheet" href="/assets/css/post.css">
+    <title>Las claves de la ciberseguridad en la industria y la importancia de evaluar el nivel de robustez y protección de los sistemas de control</title>
+    <!-- Third party libraries -->
+    <!-- Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"></script>
+<!-- Jquery -->
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<!-- ThreeJS -->
+<script src="//cdn.rawgit.com/mrdoob/three.js/master/build/three.js"></script>
+<!-- Orbit controls -->
+<script src="//cdn.rawgit.com/mrdoob/three.js/master/examples/js/controls/OrbitControls.js"></script>
+<!-- Dat GUI -->
+<script src="https://r105.threejsfundamentals.org/threejs/../3rdparty/dat.gui.min.js"></script>
+<!-- ThreeJS postprocessing -->
+<script src="//cdn.rawgit.com/mrdoob/three.js/master/examples/js/postprocessing/EffectComposer.js"></script>
+<script src="//cdn.rawgit.com/mrdoob/three.js/master/examples/js/postprocessing/RenderPass.js"></script>
+<script src="//cdn.rawgit.com/mrdoob/three.js/master/examples/js/postprocessing/ShaderPass.js"></script>
+<script src="//cdn.rawgit.com/mrdoob/three.js/master/examples/js/postprocessing/GlitchPass.js"></script>
+<script src="//cdn.rawgit.com/mrdoob/three.js/master/examples/js/postprocessing/BokehPass.js"></script>
+<script src="//cdn.rawgit.com/mrdoob/three.js/master/examples/js/postprocessing/FilmPass.js"></script>
+<script src="//cdn.rawgit.com/mrdoob/three.js/master/examples/js/shaders/CopyShader.js"></script>
+<script src="//cdn.rawgit.com/mrdoob/three.js/master/examples/js/shaders/FilmShader.js"></script>
+<script src="//cdn.rawgit.com/mrdoob/three.js/master/examples/js/shaders/DigitalGlitch.js"></script>
+<script src="//cdn.rawgit.com/mrdoob/three.js/master/examples/js/shaders/BokehShader.js"></script>
+<script src="//cdn.rawgit.com/mrdoob/three.js/master/examples/js/shaders/VignetteShader.js"></script>
+<!-- Typed JS -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+    <header>
+    <div class="top-bar-sticky-wrapper">
+        <div onclick="toggleNav()" class="hamburger">
+            <div id="ham--line1" class="ham--line-1"></div>
+            <div id="ham--line2" class="ham--line-2"></div>
+            <div id="ham--line3" class="ham--line-3"></div>
+        </div>
+        <div id="topBar" class="top-bar">
+            <h2 class="title">AULA C1BER</h2>
+        </div>
+    </div>
+    <nav id="sidenav" class="sidenav">
+        <a href="/"><img src="/assets/img/ziur-logo.png" alt="ziur-ehu" class="nav--ziur-logo"></a>   
+        <a href="/#about" class="nav-item">ABOUT</a>
+        <a href="/blog/" class="nav-item">BLOG</a>
+        <a href="/#contact" class="nav-item">CONTACT</a>
+        <br>
+        <select name="lang" id="lang" class="lang-select">
+            <option value="en">ENGLISH</option>
+        </select>
+    </nav>
+    <div id="navOverlay" class="nav-overlay"></div>
+</header>
+    <div class="title-bg">
+        <div class="container-small title-container">
+            <div class="blog-index-title">
+                <h2>Las claves de la ciberseguridad en la industria y la importancia de evaluar el nivel de robustez y protección de los sistemas de control</h2>
+                <div class="date-tags">
+                    <small>
+                        13 / October / 2022 - 
+                        <a href="#" class="tag">Ciberseguridad industrial</a>
+                        
+                        <a href="#" class="tag">protección de sistemas de control</a>
+                        
+                    </small>
+                    <hr>
+                </div>  
+            </div>
+        </div>
+    </div>
+
+    <div class="post-bg">
+        <div class="post container-small">
+            <h2 id="fechahoralugar-25-de-octubre-de-2022--de-1000-a-1200--aula-ziur">Fecha/hora/lugar: 25 de octubre de 2022 / de 10:00 a 12:00 / aula Ziur</h2>
+
+<h2 id="contenido-de-la-sesión">Contenido de la sesión:</h2>
+
+<p>Los sistemas de control tienen un papel fundamental en la industria (control de procesos) así como en otros muchos sectores (automoción, ferroviario, control de accesos, etc.). En el desarrollo de estos sistemas se han priorizado históricamente los requisitos de seguridad funcional (safety) y tiempo real, dotándolos de escasa o nula ciberseguridad. La irrupción del paradigma IoT y el constante aumento de la conectividad han propiciado que estos dispositivos hayan quedado expuestos a ataques remotos, convirtiéndose en muchos casos en el eslabón más débil.</p>
+
+<p>En los últimos años esta situación está cambiando y los fabricantes están visualizando la necesidad de diseñar sus productos con las medidas de seguridad necesarias. Sin embargo, muchas de las tecnologías de seguridad disponibles provienen de entornos IT y no son fácilmente aplicables, ya que los sistemas embebidos y los sistemas IT difieren en naturaleza y capacidades. Por ejemplo, los sistemas embebidos cuentan con menor disponibilidad de recursos, presencia de protocolos especializados, exigencias de tiempo-real, necesidad de compatibilizar las medidas de seguridad funcional o dispersión de tecnologías.</p>
+
+<p>En esta ponencia se profundizará en la seguridad de los sistemas de control como factor clave para proteger la industria, garantizar la prestación del servicio de forma confiable, y posibilitar el despliegue de nuevos servicios. Se explicarán los riesgos, las ventajas de considerar la seguridad desde el diseño, las posibles soluciones tecnológicas, los casos de aplicación y el marco normativo.</p>
+
+<p>En los sistemas de control adquiere una especial relevancia el descubrimiento y corrección de vulnerabilidades en las fases de desarrollo, antes del despliegue y operación en campo. Para lograr este objetivo existen muchos enfoques, siendo las técnicas de fuzzing una de las opciones más eficaces. En esta sesión se explicarán los principios de las técnicas de fuzzing y se planteará un ejercicio práctico para descubrir vulnerabilidades en el software mediante la aplicación de estas técnicas.</p>
+
+<h2 id="presentado-por-ikerlan">Presentado por: Ikerlan</h2>
+
+<h2 id="ponentes">Ponentes</h2>
+
+<p><strong>David González</strong> es Ingeniero en Automática y Electrónica Industrial por Mondragón Unibertsitatea (2005), y Máster en Procesamiento de Señal y Comunicaciones por la Universidad de Edimburgo (2006). Investigador en el centro tecnológico IKERLAN desde 2007, es responsable desde 2016 del equipo de investigación en Ciberseguridad en Sistemas Embebidos, en el área de Ciberseguridad Industrial. Acumula más de 10 años de experiencia en el diseño y desarrollo de plataformas embebidas para los sectores de salud, transporte y energía. Ha participado en proyectos de I+D para empresas como OSATU, ALSTOM HYDRO, ALSTOM WIND, GE, SIEMENS-GAMESA, CAF, etc. siendo el responsable del desarrollo y mantenimiento de un sistema de supervisión y control de turbinas eólicas, con requisitos de tiempo real, seguridad funcional y ciberseguridad. En el pasado, ha liderado la actividad investigadora en plataformas de referencia, centrada en nuevas plataformas hardware, virtualización y sistemas de criticidad mixta, y participado en diversos proyectos de investigación de ámbito nacional o europeo (FP7 y H2020). Participa desde su creación en las actividades ligadas al laboratorio de evaluación de ciberseguridad de producto de IKERLAN, perteneciente al BDIH.</p>
+
+<p><strong>Maialen Eceiza Olaizola</strong>, PhD, obtuvo el Grado de Ingeniería Industrial de Electrónica y Automoción (2017) y el Máster en Ingeniería en Sistemas Empotrados (2019), ambos en la universidad del País Vasco. Posteriormente realizó su tesis doctoral en Mondragón Unibertsitatea (2022), centrada en la aplicación de técnicas de smart fuzzing a los sistemas embebidos. Desde junio de 2022 desarrolla su actividad en el Equipo de Especialización de Ciberseguridad en Sistemas Embebidos en IKERLAN, y participa activamente en proyectos de investigación y transferencia tecnológica a la industria.</p>
+
+<h2 id="reacciones-al-evento">Reacciones al evento</h2>
+
+<ul>
+  <li>
+    <p>Ikerlan, Maialen Eceiza, LinkedIn, #fotos <a href="https://www.linkedin.com/feed/update/urn:li:activity:6990933528418902016/">https://www.linkedin.com/feed/update/urn:li:activity:6990933528418902016/</a></p>
+  </li>
+  <li>
+    <p>UPV/EHU, Juanan Pereira, Twitter #fotos <a href="https://twitter.com/juanan/status/1584906780844367872">https://twitter.com/juanan/status/1584906780844367872</a></p>
+  </li>
+</ul>
+
+        </div>
+    </div>
+    <footer>
+    <small>Copyright @ 2022 AulaCiber</small>
+</footer>
+    <!-- ThreeJS background -->
+    <script type="text/javascript" src="/assets/js/background.js"></script>
+    <!-- Sidenav script -->
+    <script type="text/javascript" src="/assets/js/sidenav.js"></script>
+</body>
+</html>
