@@ -6,7 +6,7 @@ tags: [Ciberseguridad industrial, protección de sistemas de control]
 ---
 ## Fecha/hora/lugar: 25 de octubre de 2022 / de 10:00 a 12:00 / aula Ziur
 
-## Contenido de la sesión:
+## Contenido de la sesión
 
 Los sistemas de control tienen un papel fundamental en la industria (control de procesos) así como en otros muchos sectores (automoción, ferroviario, control de accesos, etc.). En el desarrollo de estos sistemas se han priorizado históricamente los requisitos de seguridad funcional (safety) y tiempo real, dotándolos de escasa o nula ciberseguridad. La irrupción del paradigma IoT y el constante aumento de la conectividad han propiciado que estos dispositivos hayan quedado expuestos a ataques remotos, convirtiéndose en muchos casos en el eslabón más débil.
 

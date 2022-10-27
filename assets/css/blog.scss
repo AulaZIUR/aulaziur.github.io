@@ -21,7 +21,7 @@
 
 @media (min-width: 1200px) {
     .container-small {
-        width: 800px;
+        width: 1000px;
     }
 }
 
@@ -31,7 +31,7 @@
 }
 
 .title-container {
-    padding-top: 125px;
+    margin-top: 125px;
 }
 
 .title-bg {
@@ -69,7 +69,8 @@
     }
 
     h2 {
-       font-family: Hacked;
+       font-family: "Barlow Condensed";
+       font-weight: 300;
        font-size: 3.5vw;
     }
 
