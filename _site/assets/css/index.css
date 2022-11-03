@@ -45,7 +45,7 @@ nav { background-color: transparent; position: relative; }
 
 .header--ziur-logo { width: 500px; }
 
-.header--ehu--logo { margin-top: 10px; width: 550px; }
+.header--ehu--logo { margin-top: 10px; width: 600px; }
 
 section { background-color: rgba(0, 0, 0, 0.8); min-width: 400px; }
 section .section-title { display: flex; justify-content: center; align-items: center; }
