@@ -16,4 +16,4 @@ Ordenador portátil con acceso a internet. Como parte del taller, se instalaran 
 
 ## Ponente
 
-**David González** Sergio Anguita Lorenzo es estudiante de Doctorado en la UPV/EHU y actualmente se encuentra trabajando como ingeniero de ciberseguridad en ambitos de Blockchain y web3. 
+**Sergio Anguita** Sergio Anguita Lorenzo es estudiante de Doctorado en la UPV/EHU y actualmente se encuentra trabajando como ingeniero de ciberseguridad en ambitos de Blockchain y web3. 
