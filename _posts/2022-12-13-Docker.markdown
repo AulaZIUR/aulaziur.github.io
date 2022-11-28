@@ -1,0 +1,26 @@
+---
+layout: post
+title: "Introducción a Docker"
+date: 2022-11-28 10:00:08 +0200
+tags: [Contenedores, Docker]
+---
+## Fecha/hora/lugar: 13 de diciembre de 2022 / de 10:00 a 12:00 / aula Ziur
+
+## Contenido
+
+La tecnología de contenedores en general, y Docker en particular, se están convirtiendo en una forma común de desplegar aplicaciones, tanto para producción como para desarrollo y test. En el ámbito de la ciberseguridad, es interesante conocerla desde dos puntos de vista: (1) su utilidad para crear escenarios que puedan ser utilizados para aprender y comprobar técnicas de ciberataque/ciberdefensa y (2) las nuevas vulnerabilidades que puedan aparecer, derivadas de su uso. 
+
+En este curso haremos una introducción a Docker, desde el punto de vista más práctico: cómo usar contenedores para nuestras pruebas. Aprenderemos
+
+1. Qué son los contenedores (y las imágenes)
+2. Creación de contenedores
+3. Comunicación vía red con/entre contenedores
+4. Almacenamiento
+
+## Requisitos
+
+Ordenador portátil con acceso a Internet. Docker instalado: puede ser Docker Desktop (Linux, Mac, Windows), aunque es suficiente con Docker Server. Seguir las instrucciones indicadas en (https://docs.docker.com/engine/install/)
+
+## Ponente
+
+**Jose Miguel-Alonso** es profesor en el Departamento de Arquitectura y Tecnología de Computadores, y co-responsable del aula ZIUR.  
