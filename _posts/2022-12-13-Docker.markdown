@@ -17,6 +17,10 @@ En este curso haremos una introducción a Docker, desde el punto de vista más p
 3. Comunicación vía red con/entre contenedores
 4. Almacenamiento
 
+## Inscripción
+
+La inscripción es gratuita. Basta con que envíes un email a dif.ziur@ehu.eus con el tema INSCRIPCIÓN DOCKER y con tus datos de contacto en el cuerpo del mensaje. 
+
 ## Requisitos
 
 Ordenador portátil con acceso a Internet. Docker instalado: puede ser Docker Desktop (Linux, Mac, Windows), aunque es suficiente con Docker Server. Seguir las instrucciones indicadas en (https://docs.docker.com/engine/install/)
