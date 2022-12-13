@@ -28,3 +28,6 @@ Ordenador portátil con acceso a Internet. Docker instalado: puede ser Docker De
 ## Ponente
 
 **Jose Miguel-Alonso** es profesor en el Departamento de Arquitectura y Tecnología de Computadores, y co-responsable del aula ZIUR.  
+
+## Material del curso
+El documento .pdf con los ejemplos usados durante el curso está disponible en https://github.com/acpmialj/introdocker. 
