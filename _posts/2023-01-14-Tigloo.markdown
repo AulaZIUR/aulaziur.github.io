@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Seguridad en Azure"
-date: 2023-01-13 10:00:08 +0200
+date: 2023-01-14 10:00:08 +0200
 tags: [Cloud, Azure, Cortafuegos]
 ---
 ## Fecha/hora/lugar: 7 de marzo de 2023 / de 10:00 a 12:00 / aula Ziur
