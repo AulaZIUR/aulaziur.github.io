@@ -6,6 +6,8 @@ tags: [Blockchain, ciberseguridad]
 ---
 ## Fecha/hora/lugar: 22 de noviembre de 2022 / de 10:00 a 12:00 / aula Ziur
 
+Postpuesto al 4 de abril de 2023.
+
 ## Contenido
 
 Taller de introducción a Blockchain desde el punto de vista de la ciberseguridad. Conoce los ataques sufridos, aprende a evitarlos y cómo protegerte de ellos.
