@@ -1,0 +1,32 @@
+---
+layout: post
+title: "Docker Parte II"
+date: 2022-11-28 10:00:08 +0200
+tags: [Contenedores, Docker]
+---
+## Fecha/hora/lugar: 25 de abril de 2023 / de 10:00 a 12:00 / aula Ziur
+
+## Contenido
+
+La tecnología de contenedores en general, y Docker en particular, se están convirtiendo en una forma común de desplegar aplicaciones, tanto para producción como para desarrollo y test. En el ámbito de la ciberseguridad, es interesante conocerla desde dos puntos de vista: (1) su utilidad para crear escenarios que puedan ser utilizados para aprender y comprobar técnicas de ciberataque/ciberdefensa y (2) las nuevas vulnerabilidades que puedan aparecer, derivadas de su uso. 
+
+En un curso anterior presentamos el uso de imágenes y contenedores mediante Docker. Tras repasar brevemente estos aspectos, en esta segunda parte aprenderemos:
+
+1. Creación de imágenes a partir de Dockerfiles
+2. Orquestación de aplicaciones multi-contenedor con Docker Compose
+
+## Inscripción
+
+La inscripción es gratuita. Basta con que envíes un email a dif.ziur@ehu.eus con el tema INSCRIPCIÓN DOCKER y con tus datos de contacto en el cuerpo del mensaje. 
+
+## Requisitos
+
+Ordenador portátil con acceso a Internet y Docker instalado: puede ser Docker Desktop (Linux, Mac, Windows), aunque es suficiente con Docker Engine. 
+Seguir las instrucciones indicadas en [https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/)
+
+## Ponente
+
+**Jose Miguel-Alonso** es profesor en el Departamento de Arquitectura y Tecnología de Computadores, y co-responsable del aula ZIUR.  
+
+## Material del curso
+El documento .pdf con los ejemplos usados durante el curso estará disponible en [Github](https://github.com/acpmialj/introdocker). 
