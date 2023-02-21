@@ -4,7 +4,7 @@ title: "Hacking Blockchain for fun and profit"
 date: 2023-02-21 10:00:08 +0200
 tags: [Blockchain, ciberseguridad]
 ---
-## Fecha/hora/lugar: 4 de marzo de 2023 / de 10:00 a 12:00 / aula Ziur
+## Fecha/hora/lugar: 4 de abril de 2023 / de 10:00 a 12:00 / aula Ziur
 
 Este es el curso que estaba planificado para el pasado 22 de noviembre de 2022, pero no pudo ser impartido. 
 
