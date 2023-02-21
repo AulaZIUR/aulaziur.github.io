@@ -6,7 +6,7 @@ tags: [Blockchain, ciberseguridad]
 ---
 ## Fecha/hora/lugar: 4 de marzo de 2023 / de 10:00 a 12:00 / aula Ziur
 
-Este es el curso previsto para el 22 de noviembre de 2022, que no pudo ser impartido. 
+Este es el curso que estaba planificado para el pasado 22 de noviembre de 2022, pero no pudo ser impartido. 
 
 ## Contenido
 
