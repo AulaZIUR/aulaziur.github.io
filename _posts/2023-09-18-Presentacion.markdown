@@ -2,7 +2,7 @@
 layout: post
 title: "Presentación Aula ZIUR 2023-24"
 date: 2023-09-14 09:00:08 +0200
-tags: [Contenedores, Docker]
+tags: [Ciberseguridad, Aula Universidad-Empresa-Sociedad, ZIUR]
 ---
 ## Fecha/hora/lugar: 18 de septiembre de 2023 / de 10:30 a 12:30 / aula Ziur
 
