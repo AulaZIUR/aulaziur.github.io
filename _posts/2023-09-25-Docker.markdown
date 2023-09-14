@@ -4,7 +4,7 @@ title: "Introducción a Docker"
 date: 2023-09-14 10:00:08 +0200
 tags: [Contenedores, Docker]
 ---
-## Fecha/hora/lugar: 25 y 26 de diciembre de 2022 / de 10:30 a 12:30 / aula Ziur
+## Fecha/hora/lugar: 25 y 26 de septiembre de 2023 / de 10:30 a 12:30 / aula Ziur
 
 ## Contenido
 
@@ -12,14 +12,14 @@ La tecnología de contenedores en general, y Docker en particular, se están con
 
 En este curso haremos una introducción a Docker, desde el punto de vista más práctico: cómo usar contenedores para nuestras pruebas. Aprenderemos
 
-LUNES
+LUNES 25
 
 1. Qué son los contenedores (y las imágenes)
 2. Creación de contenedores
 3. Comunicación vía red con/entre contenedores
 4. Almacenamiento
 
-MARTES
+MARTES 26
 
 1. Creación de imágenes a partir de Dockerfiles
 2. Orquestación de contenedores usando Docker Compose
