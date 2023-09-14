@@ -1,0 +1,42 @@
+---
+layout: post
+title: "Introducción a Docker"
+date: 2023-09-14 10:00:08 +0200
+tags: [Contenedores, Docker]
+---
+## Fecha/hora/lugar: 25 y 26 de diciembre de 2022 / de 10:30 a 12:30 / aula Ziur
+
+## Contenido
+
+La tecnología de contenedores en general, y Docker en particular, se están convirtiendo en una forma común de desplegar aplicaciones, tanto para producción como para desarrollo y test. En el ámbito de la ciberseguridad, es interesante conocerla desde dos puntos de vista: (1) su utilidad para crear escenarios que puedan ser utilizados para aprender y comprobar técnicas de ciberataque/ciberdefensa y (2) las nuevas vulnerabilidades que puedan aparecer, derivadas de su uso. 
+
+En este curso haremos una introducción a Docker, desde el punto de vista más práctico: cómo usar contenedores para nuestras pruebas. Aprenderemos
+
+LUNES
+
+1. Qué son los contenedores (y las imágenes)
+2. Creación de contenedores
+3. Comunicación vía red con/entre contenedores
+4. Almacenamiento
+
+MARTES
+
+1. Creación de imágenes a partir de Dockerfiles
+2. Orquestación de contenedores usando Docker Compose
+
+## Inscripción
+
+La inscripción es gratuita. Basta con que envíes un email a [dif.ziur@ehu.eus](dif.ziur@ehu.eus) con el tema INSCRIPCIÓN DOCKER y con tus datos de contacto en el cuerpo del mensaje. 
+
+## Requisitos
+
+Ordenador portátil con Wi-Fi. Docker instalado: puede ser Docker Desktop (Linux, Mac, Windows), aunque es suficiente con Docker Engine. 
+Seguir las instrucciones indicadas en [https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/)
+
+## Ponente
+
+**Jose Miguel-Alonso** es profesor en el Departamento de Arquitectura y Tecnología de Computadores, co-responsable del aula ZIUR. Imparte las asignaturas
+"Introduction to Computer Networks" e "Infraestructuras para el Procesamiento Masivo de Datos". 
+
+## Material del curso
+El documento .pdf con los ejemplos usados durante el curso, así como otros recursos relacionados, estárán disponibles en [Github](https://github.com/acpmialj/introdocker). 
