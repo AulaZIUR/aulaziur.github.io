@@ -39,4 +39,4 @@ Seguir las instrucciones indicadas en [https://docs.docker.com/engine/install/](
 "Introduction to Computer Networks" e "Infraestructuras para el Procesamiento Masivo de Datos". 
 
 ## Material del curso
-El documento .pdf con los ejemplos usados durante el curso, así como otros recursos relacionados, estárán disponibles en [Github](https://github.com/acpmialj/introdocker). 
+El documento .pdf con los ejemplos usados durante el curso, así como otros recursos relacionados, estarán disponibles en [Github](https://github.com/acpmialj/introdocker). 
