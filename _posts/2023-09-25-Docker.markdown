@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Introducción a Docker"
-date: 2023-09-14 10:00:08 +0200
+date: 2023-09-15 10:00:08 +0200
 tags: [Contenedores, Docker]
 ---
 ## Fecha/hora/lugar: 25 y 26 de septiembre de 2023 / de 10:30 a 12:30 / aula Ziur
