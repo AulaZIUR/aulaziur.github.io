@@ -21,3 +21,13 @@ function toggleNav() {
     // Hide title
     topBar.classList.toggle("top-bar-hidden");
 }
+
+
+window.onload = () => {
+
+        let datak = document.querySelectorAll(".col-lg-2")
+        datak.forEach( data => {
+            data.style.display = 'none';
+        })
+}
+
