@@ -20,3 +20,12 @@ const observer = new IntersectionObserver(entries => {
 // Tell the observer which elements to track
 observer.observe(document.getElementById("whoamiCommand"));
 observer.observe(document.getElementById("knowledgeCommand"));
+
+
+window.onload = () => {
+
+        let datak = document.querySelectorAll(".col-lg-2")
+        datak.forEach( data => {
+            data.style.display = 'none';
+        })
+}
