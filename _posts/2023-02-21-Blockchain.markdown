@@ -19,3 +19,16 @@ Ordenador portátil con acceso a internet. Como parte del taller, se instalaran 
 ## Ponente
 
 **Sergio Anguita** Sergio Anguita Lorenzo es estudiante de Doctorado en la UPV/EHU y actualmente se encuentra trabajando como ingeniero de ciberseguridad en ambitos de Blockchain y web3. 
+
+## Reacciones
+
+[pics]
+https://twitter.com/juanan/status/1643165578620723200
+
+[eu]
+https://twitter.com/juanan/status/1641779543047274496
+
+[es]
+https://twitter.com/juanan/status/1641779063420252163
+
+
