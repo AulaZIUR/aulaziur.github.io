@@ -21,7 +21,7 @@ Temario:
 
 ## Inscripción
 
-La inscripción es gratuita. Basta con que envíes un email a [dif.ziur@ehu.eus](dif.ziur@ehu.eus) con el tema INSCRIPCIÓN DEEP y con tus datos de contacto en el cuerpo del mensaje. 
+La inscripción es gratuita. Basta con que envíes un email a [dif.ziur@ehu.eus](dif.ziur@ehu.eus) **no más tarde del viernes 17** con el tema INSCRIPCIÓN DEEP y con tus datos de contacto en el cuerpo del mensaje. 
 
 ## Requisitos
 
