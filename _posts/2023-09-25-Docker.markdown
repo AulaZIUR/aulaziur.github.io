@@ -40,3 +40,6 @@ Seguir las instrucciones indicadas en [https://docs.docker.com/engine/install/](
 
 ## Material del curso
 El documento .pdf con los ejemplos usados durante el curso, así como otros recursos relacionados, estarán disponibles en [Github](https://github.com/acpmialj/introdocker). 
+
+## Reacciones
+https://twitter.com/juanan/status/1706649935288943094
