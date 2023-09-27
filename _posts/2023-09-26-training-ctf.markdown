@@ -30,8 +30,9 @@ La inscripción es gratuita. Basta con que envíes un email a dif.ziur@ehu.eus c
 Ordenador portátil con acceso a Internet con Docker Desktop (Linux, Mac, Windows) instalado.
 
 
-## Ponente
+## Ponentes
 
+**Matxin Jiménez** es alumno del grado en Ingeniería Informática y miembro del aula ZIUR desde sus inicios.  
 **Juanan Pereira** es profesor en el Departamento de Lenguajes y Sistemas Informáticos, y co-responsable del aula ZIUR.  
 
 
