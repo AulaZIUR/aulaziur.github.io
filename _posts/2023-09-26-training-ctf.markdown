@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Entrenamiento CTF (I)"
-date: 2023-09-27 10:00:00 
+date: 2023-09-27 10:00:00 +0200
 tags: [ctf, training, cybersecurity]
 ---
 
