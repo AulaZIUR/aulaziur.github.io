@@ -7,6 +7,8 @@ tags: [ctf, training, cybersecurity]
 
 ## Fecha/hora/lugar: 9 y 10 de octubre de 2023 / de 10:30 a 12:30 / aula Ziur
 
+![Training CTF](/assets/img/posts/ctf.jpg "Training CTF")
+
 ## Contenido
 
 Un CTF, o Capture The Flag, es una competición de ciberseguridad donde los participantes, de forma individual o por equipos, resuelven diversos retos y pruebas en áreas como criptografía, análisis forense, explotación de software, seguridad web, etc., para obtener una "bandera" (flag) - un string de texto secreto. Al conseguirlo, los participantes ganan puntos o acceden a un nuevo nivel del CTF. El objetivo es enseñar y aprender habilidades de ciberseguridad de forma práctica y, usualmente, en un ambiente controlado y legal. Los CTFs pueden ser online o presenciales y varían en duración, desde horas hasta varios días.
