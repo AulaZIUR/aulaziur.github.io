@@ -7,7 +7,7 @@ tags: [ctf, training, cybersecurity]
 
 ## Fecha/hora/lugar: 9 y 10 de octubre de 2023 / de 10:30 a 12:30 / aula Ziur
 
-![Training CTF](/assets/img/posts/ctf.jpg "Training CTF")
+<img src="/assets/img/posts/ctf.jpg" alt="Training CTF" title="Training CTF" width="50%" />
 
 ## Contenido
 
