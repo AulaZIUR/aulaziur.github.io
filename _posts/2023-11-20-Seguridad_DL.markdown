@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Seguridad y Privacidad en el Aprendizaje Profundo"
-date: 2023-09-15 10:00:08 +0200
+date: 2023-10-10 09:00:08 +0200
 tags: [Deep Learning, Adversarial Attacks, Backdoors]
 ---
 ## Fecha/hora/lugar: 20 de noviembre de 2023 / de 10:30 a 12:30 / aula Ziur
