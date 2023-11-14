@@ -1,0 +1,26 @@
+---
+layout: post
+title: "Defensa DDoS con BGP"
+date: 2023-11-14 09:00:08 +0200
+tags: [DDoS, BGP]
+---
+## Fecha/hora/lugar: 11 de diciembre de 2023 / de 10:30 a 12:30 / aula Ziur
+
+## Contenido
+
+Charla introductoria a las técnicas basadas en el protocolo BGP para la defensa ante ataques de denegación de servicio (DDoS). El objetivo de la charla es dar a conocer el funcionamiento de las técnicas de mitigación de ataques DDoS basadas en redireccionamiento de tráfico. Se presentarán tanto las técnicas básicas de descarte masivo de tráfico (BlackHole), todavía ampliamente utilizadas, como las más avanzadas y automatizadas, basadas en los estándares FlowSpec y DOTS (DDoS Open Threat Signaling), usadas en combinación con lavadoras de tráfico (scrubbing center).
+
+Tratándose de introducir las ideas básicas, imprescindibles para poder entender y empezar a trabajar con estas técnicas, la charla es necesariamente descriptiva. 
+Temario:
+
+## Inscripción
+
+La inscripción es gratuita. Basta con que envíes un email a [dif.ziur@ehu.eus](dif.ziur@ehu.eus) **no más tarde del viernes 8** con el tema INSCRIPCIÓN BGP y con tus datos de contacto en el cuerpo del mensaje. 
+
+## Requisitos
+
+La charla es introductoria y, por tanto, de nivel básico, pero para poder seguirla es necesario dominar los conceptos mínimos y la terminología de redes IP: direcciones IPv4, prefijos IP, ISP, Internet Register, sistemas autónomos, routers, reenvío de datagramas... Debería ser suficiente con haber cursado y aprobado la asignatura 'Introducción a las redes de computadores', obligatoria de segundo curso en el grado de Ingeniería Informática, o bien la asignatura 'Introducción a las redes de computadores y sistemas operativos' del grado en Inteligencia Artificial.  
+
+## Ponente
+
+**José Mª Rivadeneyra**, profesor en la DIF/EHU. Imparte asignaturas relacionadas con redes informáticas e Internet en titulaciones universitarias desde hace más de 30 años. 
