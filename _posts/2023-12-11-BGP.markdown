@@ -4,7 +4,7 @@ title: "Defensa DDoS con BGP"
 date: 2023-11-14 09:00:08 +0200
 tags: [DDoS, BGP]
 ---
-## Fecha/hora/lugar: 11 de diciembre de 2023 / de 10:30 a 12:30 / aula Ziur
+## Fecha/hora/lugar: 11 de diciembre de 2023 / de 10:30 a 12:00 / aula Ziur
 
 ## Contenido
 
