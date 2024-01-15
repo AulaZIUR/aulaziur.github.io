@@ -11,7 +11,6 @@ tags: [DDoS, BGP]
 Charla introductoria a las técnicas basadas en el protocolo BGP para la defensa ante ataques de denegación de servicio (DDoS). El objetivo de la charla es dar a conocer el funcionamiento de las técnicas de mitigación de ataques DDoS basadas en redireccionamiento de tráfico. Se presentarán tanto las técnicas básicas de descarte masivo de tráfico (BlackHole), todavía ampliamente utilizadas, como las más avanzadas y automatizadas, basadas en los estándares FlowSpec y DOTS (DDoS Open Threat Signaling), usadas en combinación con lavadoras de tráfico (scrubbing center).
 
 Tratándose de introducir las ideas básicas, imprescindibles para poder entender y empezar a trabajar con estas técnicas, la charla es necesariamente descriptiva. 
-Temario:
 
 ## Inscripción
 
