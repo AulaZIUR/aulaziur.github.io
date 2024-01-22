@@ -4,7 +4,7 @@ title: "Ciberseguridad en Sistemas Físicos - Análisis de canal lateral"
 date: 2024-01-15 09:00:08 +0200
 tags: [Side-channel attacks, seguridad sistemas físicos]
 ---
-## Fecha/hora/lugar: 29 de enero de 2023 / de 10:30 a 12:00 / aula Ziur
+## Fecha/hora/lugar: 29 de enero de 2024 / de 10:30 a 12:00 / aula Ziur
 
 ## Contenido
 
