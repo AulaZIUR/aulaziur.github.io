@@ -16,7 +16,7 @@ La inscripción es gratuita. Basta con que envíes un email a [dif.ziur@ehu.eus]
 
 ## Requisitos
 
-Se proporcionará acceso a un repositorio con un cuaderno Jupyter (Python). Se incluirá información sobre los paquetes requeridos para el entorno virtual. 
+Se trabajará con este [notebook de Jupyter](https://github.com/altter/UPV_DPA_Example) (seguir instrucciones). 
 
 ## Ponente
 
