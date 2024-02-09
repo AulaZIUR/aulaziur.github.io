@@ -25,7 +25,7 @@ tags: [IOT, OT, ciberseguridad industrial]
 
 ## Inscripción
 
-La inscripción es gratuita. Basta con que envíes un email a [dif.ziur@ehu.eus](dif.ziur@ehu.eus) **no más tarde del viernes 26** con el tema INSCRIPCIÓN CIBERSEGURIDAD INDUSTRIAL y con tus datos de contacto en el cuerpo del mensaje. 
+La inscripción es gratuita. Basta con que envíes un email a [dif.ziur@ehu.eus](dif.ziur@ehu.eus) **no más tarde del viernes 16** con el tema INSCRIPCIÓN CIBERSEGURIDAD INDUSTRIAL y tus datos de contacto en el cuerpo del mensaje. 
 
 
 ## Ponente
