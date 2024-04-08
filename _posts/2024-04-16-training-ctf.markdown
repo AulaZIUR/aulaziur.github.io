@@ -5,7 +5,7 @@ date: 2024-04-07 10:00:00 +0200
 tags: [ctf, training, cybersecurity]
 ---
 
-## Fecha/hora/lugar: 23 y 24 de abril de 2024 / de 10:30 a 12:30 / aula Ziur
+## Fecha/hora/lugar: 22 y 23 de abril de 2024 / de 10:30 a 12:30 / aula Ziur
 
 <div style="text-align: center;">
 <img src="/assets/img/posts/ctf.jpg" alt="Training CTF" title="Training CTF" width="50%" />
