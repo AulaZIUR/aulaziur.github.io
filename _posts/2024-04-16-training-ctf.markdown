@@ -19,7 +19,6 @@ Si quieres aprender a competir en CTFs (desde cero) de forma práctica, apúntat
 
 En este primer taller resolveremos retos relacionados con seguridad web, pwning, forensics, explotación de vulnerabilidades y Docker. No hace falta tener conocimientos previos en seguridad (pero sí en Docker...)
 
-
 ## Inscripción
 
 La inscripción es gratuita. Basta con que envíes un email a dif.ziur@ehu.eus con el tema INSCRIPCIÓN CTF y con tus datos de contacto en el cuerpo del mensaje. Deadline para apuntarse: 2024-04-20 22:00.
@@ -27,7 +26,6 @@ La inscripción es gratuita. Basta con que envíes un email a dif.ziur@ehu.eus c
 ## Requisitos
 
 Ordenador portátil con acceso a Internet con Docker Desktop (Linux, Mac, Windows) instalado.
-
 
 ## Ponentes
 
