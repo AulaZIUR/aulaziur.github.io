@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Presentación Aula ZIUR 2024-25"
-date: 2024-09-10 09:00:00 +0200
+date: 2024-09-01 09:00:00 +0200
 tags: [Ciberseguridad, Aula Universidad-Empresa-Sociedad, ZIUR]
 ---
 ## Fecha/hora/lugar: 18 de septiembre de 2024 / de 12:00 a 13:00 / aula Ziur
