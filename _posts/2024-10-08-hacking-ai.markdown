@@ -8,7 +8,7 @@ tags: [hacking AI, artificial intelligence, vulnerabilities, exploitation]
 ## Fecha/hora/lugar: 8 de octubre de 2024 / de 10:00 a 12:00 / aula Ziur
 
 <div style="text-align: center;">
-<img src="/assets/img/posts/panda_gibbon_fritz-ai.png" alt="Clasificación erronea de una imágen de un panda como un gibón a causa de añadirle un ruido. La imágen no cambia para la vista humana pero ucho para el modelo IA." title="Clasificación erronea de una imágen después de haberla manipulado." width="30%" />
+<img src="/assets/img/posts/panda_gibbon_fritz-ai.png" alt="Clasificación erronea de una imágen de un panda como un gibón a causa de añadirle un ruido. La imágen no cambia para la vista humana pero ucho para el modelo IA." title="Clasificación erronea de una imágen después de haberla manipulado." width="50%" />
 </div>
 
 ## Contenido
