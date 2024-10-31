@@ -8,7 +8,7 @@ tags: [buffer overflow, exploits, reverse engineering]
 ## Fecha/hora/lugar: 21 de noviembre de 2024 / de 18:30 a 20:00 / aula Ziur
 
 <div style="text-align: center;">
-<img src="/assets/img/posts/Stack_Overflow.png" alt="Esquema del segmento de la pila de un proceso (una sección de la memoria principal), en la que aparecen el sitio reservado para las variables locales, el Saved Frame Pointer y la Return Address." title="Esquema del segmento de la pila de un proceso (wikipedia.org)." width="50%" />
+<img src="/assets/img/posts/Stack_Overflow.png" alt="Esquema del segmento de la pila de un proceso (una sección de la memoria principal), en la que aparecen el sitio reservado para las variables locales, el Saved Frame Pointer y la Return Address." title="Esquema del segmento de la pila de un proceso (wikipedia.org)." width="30%" />
 </div>
 
 ## Contenido
