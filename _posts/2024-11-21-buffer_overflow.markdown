@@ -13,7 +13,7 @@ tags: [buffer overflow, exploits, reverse engineering]
 
 ## Contenido
 
-La búsqueda de vulnerabilidades en aplicaciones y el desarrollo de exploits para investigar qué riesgo supone dicha vulnerabilidad es una habilidad muy valiosa para las empresas antivirus. En este campo de la ciberseguridad hay que hacer uso de campos como la ingeniería inversa del software (Reverse Engineering) y hay que dominar el funcionamiento del computador a bajo nivel: sistemas operativos, redes de computadores y arquitectura de computadores.
+La búsqueda de vulnerabilidades en aplicaciones y el desarrollo de exploits para investigar qué riesgo supone una vulnerabilidad es una habilidad muy valiosa para las empresas antivirus. En este campo de la ciberseguridad hay que hacer uso de campos como la ingeniería inversa del software (Reverse Engineering) y hay que dominar el funcionamiento del computador a bajo nivel: sistemas operativos, redes de computadores y arquitectura de computadores.
 
 El camino para adentrarse en el campo de desarrollo de exploits suele iniciarse explotando la vulnerabilidad de desbordamiento de buffer en pila (Stack Buffer Overflow). Y esta es la vulnerabilidad que se trabajará en este taller.
 
