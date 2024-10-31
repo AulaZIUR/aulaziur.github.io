@@ -21,7 +21,7 @@ Este taller deriva de un Trabajo de Fin de Grado (TFG) en el que se desarrolló 
 
 ## Inscripción
 
-La inscripción es gratuita. Basta con que envíes un email a [dif.ziur@ehu.eus](dif.ziur@ehu.eus) con el tema INSCRIPCIÓN HACKING AI y con tus datos de contacto (nombre+apellidos, email) en el cuerpo del mensaje. Deadline para apuntarse: 2024-10-06.
+La inscripción es gratuita. Basta con que envíes un email a [dif.ziur@ehu.eus](dif.ziur@ehu.eus) con el tema INSCRIPCIÓN BUFFER y con tus datos de contacto (nombre+apellidos, email) en el cuerpo del mensaje. Deadline para apuntarse: 2024-11-19.
 
 ## Requisitos
 
