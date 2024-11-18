@@ -25,7 +25,7 @@ La inscripción es gratuita. Basta con que envíes un email a [dif.ziur@ehu.eus]
 
 ## Requisitos
 
-Traer el portátil y tener descargado y montado la siguiente imagen de VirtualBox: (el enlace, próximamente disponible)
+Traer el portátil y tener descargado y montado la siguiente imagen de VirtualBox: [https://upvehueus-my.sharepoint.com/:f:/g/personal/inigo_perona_ehu_eus/Es-PkjXIc41IhY1cAv-PvucBgWjaEAHO3KTajk6d53QdhA?e=4ibT0j](https://upvehueus-my.sharepoint.com/:f:/g/personal/inigo_perona_ehu_eus/Es-PkjXIc41IhY1cAv-PvucBgWjaEAHO3KTajk6d53QdhA?e=4ibT0j)
 
 ## Ponentes
 
