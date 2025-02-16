@@ -8,7 +8,7 @@ tags: [forensics, anomaly detection, machine learning]
 ## Fecha/hora/lugar: 17 de marzo de 2025 / de 9:00 a 10:30 / Aula ZIUR
 
 <div style="text-align: center;">
-<img src="/assets/img/posts/hatz-marka_forensics.jpg" alt="Una huella compuesto por 0s y 1s con una forma de dedo, a la que se inspecciona mediante una lupa." title="Huella de dedo compuesto por 0s y 1s (piqsels.com)." width="30%" />
+<img src="/assets/img/posts/hatz-marka_forensics.jpg" alt="Una huella compuesto por 0s y 1s con una forma de dedo, a la que se inspecciona mediante una lupa." title="Huella de dedo compuesto por 0s y 1s (piqsels.com)." width="40%" />
 </div>
 
 ## Contenido
