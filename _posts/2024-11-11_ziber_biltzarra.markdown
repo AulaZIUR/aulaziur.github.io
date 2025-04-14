@@ -13,6 +13,3 @@ tags: [cybersecurity companies, basque country, internship]
 
 **CAS** Sesión orientada al estudiantado interesado en realizar prácticas o desarrollar trabajos de fin de grado en empresas del ámbito de la ciberseguridad. Durante la sesión diferentes empresas del ámbito de la ciberseguridad darán a conocer sus proyectos.
 
-## Ponentes
-
-**[Secure&it](https://www.secureit.es/)**,  **[JakinCode](https://jakincode.com/)**, **[Zucchetti Spain](https://www.zucchetti.es/)**, **[Titanium Industrial Security](https://titaniumindustrialsecurity.com/), **[Orbik Cybersecurity](https://orbik-cybersecurity.com/)**, **[S21Sec](https://www.s21sec.com/)**, **[Cybertix](https://cybertix.tech/)**
