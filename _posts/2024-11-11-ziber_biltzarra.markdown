@@ -15,5 +15,5 @@ tags: [cybersecurity companies, basque country]
 
 ## Hizlariak / Ponentes
 
-**[Secure&it](https://www.secureit.es/)**,  **[JakinCode](https://jakincode.com/)**, **[Zucchetti Spain](https://www.zucchetti.es/)**, **[Titanium Industrial Security](https://titaniumindustrialsecurity.com/), **[Orbik Cybersecurity](https://orbik-cybersecurity.com/)**, **[S21Sec](https://www.s21sec.com/)**, **[Cybertix](https://cybertix.tech/)**
+**[Secure&it](https://www.secureit.es/)**,  **[JakinCode](https://jakincode.com/)**, **[Zucchetti Spain](https://www.zucchetti.es/)**, **[Titanium Industrial Security](https://titaniumindustrialsecurity.com/)**, **[Orbik Cybersecurity](https://orbik-cybersecurity.com/)**, **[S21Sec](https://www.s21sec.com/)**, **[Cybertix](https://cybertix.tech/)**
 
