@@ -2,14 +2,10 @@
 layout: post
 title: "Zibersegurtasun arloko enpresen aurkezpenak"
 date: 2024-11-01 09:00:00 +0200
-tags: [cybersecurity companies, basque country]
+tags: [cybersecurity companies, basque country, internship]
 ---
 
 ## Fecha/hora/lugar: 11 de noviembre de 2024 / de 09:30 a 12:00 / Ada Lovelace
-
-<div style="text-align: center;">
-<img src="/assets/img/posts/oscilloscope.png" alt="Un dibujo de un osciloscopio." title="Osciloscopio (pixabay.com)." width="40%" />
-</div>
 
 ## Contenido
 
