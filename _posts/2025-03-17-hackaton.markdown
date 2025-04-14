@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Hackaton: CTF ariketak"
+date: 2025-04-01 09:00:00 +0200
+tags: [ctf, hacking]
+---
+
+## Fecha/hora/lugar: 14 de abril de 2025 / de 15:00 a 18:00 / Laboratorio 1.5
+
+<div style="text-align: center;">
+<img src="/assets/img/posts/aaf_adu.jpg" alt="Una bandera pirata con subtitulo Capture The Flag." title="Una bandera pirata con subtitulo Capture The Flag." width="40%" />
+</div>
+
+## Edukia / Contenido
+
+**EUS** CTF bat, edo Capture The Flag, zibersegurtasun arloko lehiaketa bat da non partehartzaileek, bai banaka edo bai taldeka, hainbat erronka ezberdin ebazten baitituzte, hala nola kriptografiakoak, analisi forentsekoak, softwarearen esplotaziokoak eta web segurtasunekoak, zer eta "bandera" (flag) bat --karaktere kate bat, testu bat izan edo zenbaki hamaseitarren osatua egon ohi dena-- lortzeko helburuarekin. Ebatzitakoan, partehartzaileek puntuak lortzen dituzte edo maila berri batera pasatzen dira. Helburua, zibersegurtansuneango gaitasunak modu praktiko batean ikastea da, eszenatoki kontrolatu eta araupeko batean. CTF-ak online edo presentzialki jokatu daitezke eta orotariko iraupena dute, hasi ordu batzuetakoetatik eta hainbat egunerainokoak. 
+
+**CAS** Un CTF, o Capture The Flag, es una competición de ciberseguridad donde los participantes, de forma individual o por equipos, resuelven diversos retos y pruebas en áreas como criptografía, análisis forense, explotación de software, seguridad web, etc., para obtener una “bandera” (flag) - un string de texto secreto. Al conseguirlo, los participantes ganan puntos o acceden a un nuevo nivel del CTF. El objetivo es enseñar y aprender habilidades de ciberseguridad de forma práctica y, usualmente, en un ambiente controlado y legal. Los CTFs pueden ser online o presenciales y varían en duración, desde horas hasta varios días.
+

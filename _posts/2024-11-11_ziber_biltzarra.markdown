@@ -2,7 +2,7 @@
 layout: post
 title: "Zibersegurtasun arloko enpresen aurkezpenak / Presentación de empresas del ámbito de la ciberseguridad"
 date: 2024-11-01 09:00:00 +0200
-tags: [cybersecurity company, basque country]
+tags: [cybersecurity companies, basque country]
 ---
 
 ## Fecha/hora/lugar: 11 de noviembre de 2024 / de 09:30 a 12:00 / Ada Lovelace
