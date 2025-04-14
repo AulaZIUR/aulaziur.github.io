@@ -7,6 +7,10 @@ tags: [cybersecurity companies, basque country]
 
 ## Fecha/hora/lugar: 11 de noviembre de 2024 / de 09:30 a 12:00 / Ada Lovelace
 
+<div style="text-align: center;">
+<img src="/assets/img/posts/oscilloscope.png" alt="Un dibujo de un osciloscopio." title="Osciloscopio (pixabay.com)." width="40%" />
+</div>
+
 ## Contenido
 
 **EUS** Zibersegurtasunaren arloko enpresetan praktikak egin edo gradu amaierako lanak egin nahi dituzten iksaleei zuzendutako saioa. Saioan zehar, zibersegurtasun arloko hainbat enpresek euren proiektuen berri emango dute.
