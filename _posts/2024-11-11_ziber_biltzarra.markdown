@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Zibersegurtasun arloko enpresen aurkezpenak / Presentación de empresas del ámbito de la ciberseguridad"
+title: "Zibersegurtasun arloko enpresen aurkezpenak"
 date: 2024-11-01 09:00:00 +0200
 tags: [cybersecurity companies, basque country]
 ---
