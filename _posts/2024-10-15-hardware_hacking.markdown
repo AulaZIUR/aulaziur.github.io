@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hardware Hacking en Sistemas Embebidos"
-date: 2024-09-15 09:00:00 +0200
+date: 2024-10-01 09:00:00 +0200
 tags: [canal lateral, PCB attacks, deep learning]
 ---
 

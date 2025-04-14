@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Zibersegurtasun arloko enpresen aurkezpenak / Presentación de empresas del ámbito de la ciberseguridad"
-date: 2024-10-11 09:00:00 +0200
+date: 2024-11-01 09:00:00 +0200
 tags: [cybersecurity company, basque country]
 ---
 
@@ -9,9 +9,9 @@ tags: [cybersecurity company, basque country]
 
 ## Edukia / Contenido
 
-**((EUS))** Zibersegurtasunaren arloko enpresetan praktikak egin edo gradu amaierako lanak egin nahi dituzten iksaleei zuzendutako saioa. Saioan zehar, zibersegurtasun arloko hainbat enpresek euren proiektuen berri emango dute.
+**EUS** Zibersegurtasunaren arloko enpresetan praktikak egin edo gradu amaierako lanak egin nahi dituzten iksaleei zuzendutako saioa. Saioan zehar, zibersegurtasun arloko hainbat enpresek euren proiektuen berri emango dute.
 
-**(CAS))** Sesión orientada al estudiantado interesado en realizar prácticas o desarrollar trabajos de fin de grado en empresas del ámbito de la ciberseguridad. Durante la sesión diferentes empresas del ámbito de la ciberseguridad darán a conocer sus proyectos.
+**CAS** Sesión orientada al estudiantado interesado en realizar prácticas o desarrollar trabajos de fin de grado en empresas del ámbito de la ciberseguridad. Durante la sesión diferentes empresas del ámbito de la ciberseguridad darán a conocer sus proyectos.
 
 ## Hizlariak / Ponentes
 
