@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Metodología para resolver los retos CTFs"
+title: "Metodologías para resolver los retos CTFs"
 date: 2025-08-04 09:00:00 +0200
 tags: [pentesting, CTF, web exploitation, crypto, reversing, pwn]
 ---
@@ -23,19 +23,18 @@ Aurrez aurrekoa / Presencial
 
 **EUS**
 
-**Izenburua**: CTF erronkak ebazteko metodologia
+**Izenburua**: CTF erronkak ebazteko metodologiak
 
 Hitzaldi interaktibo honek, ikasleak, Capture The Flag (CTF) -en mundu liluragarrian murgilduko ditu, zeintzuk zibersegurtasuneko lehiaketak baitira, non parte hartzaileek erronka teknikoak ebazten baitituzte, etika duen hacking arlokoak eurak, helburuko honekin: ezkutuko "flag"-ak aurkitu. Saio honetan zehar honako gaiak esplikatuko dira: CTFak zer diren, horien garrantzia zibersegurtasuneango garapen profesionalean eta erronka mota hauen kategoria nagusiak azalduko dira: Web ustiapena, Kriptografia, Alderantzizko ingeniaritza (Reversing), bitarkien ustiapena (PWN), digitotiar forentsea, besteak beste.
 
 Hitzaldiak inkluditzen du, zati teoriko bat oinarrizko erremintei buruzkoa,
-zeintzuk CTF-kategoria bati lotuko baitira (Burp Suite, Wireshark, Ghidra, Python, besteak beste), ondoren, zati horri demo praktiko batek jarraituko dio, non bertaratzen direnek hainbat erronka ebatziko baitituzte, kategoria ezberdinetakoak eurak, hizlariarekin batera, zertzuen gainean, aurre-konfiguratuta alegiazko makinen. Hands-on esperientzia honek ahalbidetuko die ikasleei esperimentatzea halako tekniketan, etika duten hacking-ekoetan, eta kontrolpeko eta hezle den ingurune batean.
+zeintzuk CTF-kategoria bati lotuko baitira (Burp Suite, Wireshark, Ghidra, Python, besteak beste), ondoren, zati horri demo praktiko batek jarraituko dio, non bertaratzen direnek, hizlariarekin batera, hainbat erronka ebatziko baitituzte, kategoria ezberdinetakoak eurak, zertzuen gainean, aurre-konfiguratutako alegiazko makinen. Hands-on esperientzia honek ahalbidetuko die ikasleei esperimentatzea honako tekniketan, etika duten hacking-ekoetan, eta kontrolpeko eta hezle den ingurune batean.
 
-Azkenik, aurkeztuko dira IKERLANek antolatutako CTF lehiaketaren xehetasunak: sailkatze-fasearen datak (azaroa), aurrez-aurreko finalaren data (azaroa), izen-emate prozesua, 3-5 lagunez osatutako taldeak, sari-motak, eta azpimarratuko da ezen, lehiaketak, zibersegurtasun-gaitasunak garatzeko aukera paregabe bat eskaintzen diela horiei, Espainiapeko unibertsitateetako ikasleei,
-gainera, aintzatespen akademiko eta profesionala lortzen lagunduz. Saio honetan zehar zeraren demostrazio bat egingo da, CTF plataformarena, zeina erabiliko baita saio honetan zehar, honako kontuak erakutsiz: bere funtzionamendua, nabigazio modua eta ezaugarri nagusiak, horrela, ikasleak ingurunearekin senidetu daitezen ebentuaren aurretik. Gainera, denbora bat dedikatuko zaio CTF honi buruzko edozein zalantza ebazteari: aspektu teknikoak, logistikoak, ebaluzio-irizpideak eta sailkatze-prozesua finalerako.
+Azkenik, aurkeztuko dira IKERLANek antolatutako CTF lehiaketaren xehetasunak: sailkatze-fasearen datak (azaroa), aurrez-aurreko finalaren data (azaroa), izen-emate prozesua, 3-5 lagunez osatutako taldeak, sari-motak, eta azpimarratuko da ezen, lehiaketak, zibersegurtasun-gaitasunak garatzeko aukera paregabe bat eskaintzen diela horiei, Espainiapeko unibertsitateetako ikasleei, gainera, aintzatespen akademiko eta profesionala lortzen lagunduz. Saio honetan zehar zeraren demostrazio bat egingo da, CTF plataformarena, zeina saio honetan zehar erabiliko baita eta zeinaren honako ezaugarriak erakutsiko baitira: bere funtzionamendua, nabigazio modua eta ezaugarri nagusiak, horrela, ikasleak ingurunearekin senidetu daitezen ebentuaren aurretik. Gainera, denbora bat dedikatuko zaio CTF honi buruzko edozein zalantza ebazteari: aspektu teknikoak, logistikoak, ebaluzio-irizpideak eta finalerako sailkatze-prozesuari buruzkoak.
 
 **CAS**
 
-**Título**: Metodología para resolver los retos CTFs
+**Título**: Metodologías para resolver los retos CTFs
 
 Esta charla interactiva introduce a los estudiantes en el fascinante mundo de los Capture The Flag (CTF), competiciones de ciberseguridad donde los participantes resuelven desafíos técnicos de hacking ético para encontrar "flags" ocultas. Durante la sesión se explicará qué son los CTF, su importancia en el desarrollo profesional de la ciberseguridad, y se presentarán las principales categorías de retos: Web Exploitation, Criptografía, Ingeniería Inversa (Reversing), Explotación de Binarios (PWN), Forense Digital, entre otros.
 
@@ -67,7 +66,7 @@ Conocimientos: Es recomendable tener nociones básicas de sistemas Linux, redes 
 
 **EUS**
 
-**Adei Arias**, informatikan ingeniaria da eta IKERLANen industri-zibersegurtasunean ikertzaile. Nire lanaren barruan honako bi rolak hartzen ditut industri-sareak babesteko, erasogilearena eta defendatzailearena, horretarako, kalteberatasunak aztertzen ditut eta azpi-egitura kritikoak gerizatzen mehatxuekiko. Zibersegurtasun ofentsibora suharra naiz, sistemak ustiatzen gozatzen dut, horiek hausteko sormen-bideak aurkituz eta erasotzaileen pentsatzeko moduak ulertuz. Esku-artean egokitzen zaidan zer guztiekin esperimentatzearen zale amorratua naiz, eta edozein ideia bihurri probatzearena. Honako gai hauetan ari naiz espezializatzen: pentesting, red teaming eta industri-inguruneetako mehatxuen detekzioan. Gainera, CTFetako ohiko jokalari naiz.
+**Adei Arias**, informatikan ingeniaria naiz eta IKERLANen industri-zibersegurtasunean ikertzaile. Nire lanaren barruan honako bi rolak hartzen ditut industri-sareak babesteko, erasogilearena eta defendatzailearena, horretarako, kalteberatasunak aztertzen ditut eta azpi-egitura kritikoak gerizatzen mehatxuekiko. Zibersegurtasun ofentsibora suharra naiz, sistemak ustiatzen gozatzen dut, horiek hausteko sormen-bideak aurkituz eta erasotzaileen pentsatzeko moduak ulertuz. Esku-artean egokitzen zaidan zer guztiekin esperimentatzearen zale amorratua naiz, eta edozein ideia bihurri probatzearena. Honako gai hauetan ari naiz espezializatzen: pentesting, red teaming eta industri-inguruneetako mehatxuen detekzioan. Gainera, CTFetako ohiko jokalari naiz.
 
 **CAS**
 
