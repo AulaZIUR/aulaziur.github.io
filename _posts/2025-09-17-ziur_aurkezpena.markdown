@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Presentación del AULA ZIUR de ciberseguridad"
-date: 2025-09-01 09:00:00 +0200
+date: 2025-08-01 09:00:00 +0200
 tags: [cybersecurity, industry, workshop]
 ---
 
