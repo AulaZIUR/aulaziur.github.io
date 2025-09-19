@@ -5,7 +5,7 @@ date: 2025-08-04 09:00:00 +0200
 tags: [pentesting, CTF, web exploitation, crypto, reversing, pwn]
 ---
 
-## Eguna/ordua/tokia: 2025-IX-22 / 10:00etatik 12:00etara / ZIUR Gela edo Ada Lovelace
+## Eguna/ordua/tokia: 2025-IX-30 / 10:00etatik 12:00etara / ZIUR Gela
 
 <div style="text-align: center;">
 <img src="/assets/img/posts/ctf.jpg" alt="Badera bat, bere edukian 0 eta 1ak dituena. Una bandera que tiene como contenido 0s y 1s." title="Badera bat, bere edukian 0 eta 1ak dituena. Una bandera que tiene como contenido 0s y 1s." width="50%" />
