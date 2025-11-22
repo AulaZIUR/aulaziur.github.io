@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Explotación de las vulnerabilidades en los algoritmos criptográficos antiguos"
-date: 2025-11-22 09:00:00 +0200
+date: 2025-11-20 09:00:00 +0200
 tags: [crytography, substitution, caesar, transposition]
 ---
 
