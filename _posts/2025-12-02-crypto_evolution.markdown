@@ -25,9 +25,9 @@ Aurrez aurrekoa / Presencial
 
 Pribatutasuna eta sekretuak gordetzeko desioak estatuak hona eraman ditu, kriptografia-sailak sortzera, zeintzuk baitute komunikazioen segurtasuna bermatzeko erantzukizuna, nola eta ahalik eta kriptografia-algoritmo onenak asmatuz eta inplementatuz. Aldi berean, ber sail horietan, deszifralariak saiatuko dira kriptografia-algoritmo horiek apurtzen, besteren sekretuak lapurtzeko. Kriptografia-algoritmoen historia hauen arteko guda etengabea da, kriptografia-algoritmoen sortzaileen eta apurtzaileen, adimen-lasterketa dena, zeinak eragin lazgarriak izan baititu historiaren bilakaeran.
 
-Gaue egun, kriptografia-algoritmoak digito-komunikazioen oinarri dira.
+Gaur egun, kriptografia-algoritmoak digito-komunikazioen oinarri dira.
 
-Tailer honen xedea zera da, antzinako kriptografia-algoritmo batzuk aurkeztea eta horiek apurtzen saiatzea. Horrela, teknika hauek introduzitu eta motibatuko dira, deszifralariei apurtze lana ezinezkotzeko sortutakoak.
+Tailer honen xedea zera da, antzinako kriptografia-algoritmo batzuk aurkeztea eta horiek apurtzen saiatzea. Horrela, bertan erabiltzen diren teknikak introduzitu eta motibatuko dira, deszifralariei apurtze lana ezinezkotzeko sortutakoak direnak.
 
 ## Edukia / Contenido (CAS)
 
