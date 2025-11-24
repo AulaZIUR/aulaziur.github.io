@@ -41,11 +41,11 @@ El objetivo de este taller es presentar algunos algoritmos criptográficos antig
 
 ## Izen-ematea / Inscripción (EUS)
 
-Izen-ematea debaldekoa da. Nahikoa da email bat bidaltzea hona: dif.ziur@ehu.eus. Gaia INSKRIPZIOA CTF ipini eta gorputzean zure datuak (izena+abizenak). Epe muga: 2025-XI-30.
+Izen-ematea debaldekoa da. Nahikoa da email bat bidaltzea hona: dif.ziur@ehu.eus. Gaia INSKRIPZIOA CRYPTO ipini eta gorputzean zure datuak (izena+abizenak). Epe muga: 2025-XI-30.
 
 ## Izen-ematea / Inscripción (CAS)
 
-La inscripción es gratuita. Basta con que envíes un email a dif.ziur@ehu.eus. Tema INSCRIPCIÓN CTF y con tus datos (nombre+apellidos) en el cuerpo del mensaje. Fecha límite: 30-XI-2025.
+La inscripción es gratuita. Basta con que envíes un email a dif.ziur@ehu.eus. Tema INSCRIPCIÓN CRYPTO y con tus datos (nombre+apellidos) en el cuerpo del mensaje. Fecha límite: 30-XI-2025.
 
 ## Hizlariak / Ponentes (EUS)
 
