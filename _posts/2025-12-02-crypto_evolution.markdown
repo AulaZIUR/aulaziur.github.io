@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Explotación de las vulnerabilidades en los algoritmos criptográficos antiguos"
+title: "Criptoanálisis 101: Descifrando Enigma"
 date: 2025-11-20 09:00:00 +0200
-tags: [crytography, substitution, caesar, transposition]
+tags: [crytography, substitution, enigma, transposition]
 ---
 
 ## Eguna/ordua/tokia: 2025/XII/02 / 10:00-12:00 / ZIUR Gela (302 lab., Rediet Abede)
 
 <div style="text-align: center;">
-<img src="/assets/img/posts/caesar.png" alt="Graphical example of Caesar substitution." title="Caesar (wikimedia.org)." width="40%" />
+<img src="/assets/img/posts/enigma.jpg" alt="Parts of the Enigma machine." title="Enigma (ingenieriabasica.es)." width="50%" />
 </div>
 
 ## Hizkuntza / Idioma 
@@ -21,36 +21,56 @@ Aurrez aurrekoa / Presencial
 
 ## Edukia / Contenido (EUS)
 
-**Izenburua**: Antzinako kriptografia-algoritmoen bulnerabideen esplotazioa 
+**Izenburua**: 101 mailan kriptoanalisia: Enigma deszifratzen
 
-Pribatutasuna eta sekretuak gordetzeko desioak estatuak hona eraman ditu, kriptografia-sailak sortzera, zeintzuk baitute komunikazioen segurtasuna bermatzeko erantzukizuna, nola eta ahalik eta kriptografia-algoritmo onenak asmatuz eta inplementatuz. Aldi berean, ber sail horietan, deszifralariak saiatuko dira kriptografia-algoritmoak apurtzen, besteren sekretuak lapurtzeko. Kriptografia-algoritmoen historia hauen arteko guda etengabea da, kriptografia-algoritmoen sortzaileen eta apurtzaileen, adimen-lasterketa dena, zeinak eragin lazgarriak izan baititu historiaren bilakaeran.
+Zifratze algoritmo klasikoak estudiatuko ditugu eta, are interesgarriagoa dena, esploratuko ditugu askotariko metodoak, algoritmo horiek puskatzeko historian zehar erabili izan direnak.
 
-Gaur egun, kriptografia-algoritmoak digito-komunikazioen oinarri dira.
+<!-- **Izenburua**: Antzinako kriptografia-algoritmoen bulnerabideen esplotazioa -->
 
-Tailer honen xedea zera da, antzinako kriptografia-algoritmo batzuk aurkeztea eta horiek apurtzen saiatzea. Horrela, bertan erabiltzen diren teknikak introduzitu eta motibatuko dira, deszifralariei apurtze lana ezinezkotzeko sortutakoak direnak.
+<!-- Pribatutasuna eta sekretuak gordetzeko desioak estatuak hona eraman ditu, kriptografia-sailak sortzera, zeintzuk baitute komunikazioen segurtasuna bermatzeko erantzukizuna, nola eta ahalik eta kriptografia-algoritmo onenak asmatuz eta inplementatuz. Aldi berean, ber sail horietan, deszifralariak saiatuko dira kriptografia-algoritmoak apurtzen, besteren sekretuak lapurtzeko. Kriptografia-algoritmoen historia hauen arteko guda etengabea da, kriptografia-algoritmoen sortzaileen eta apurtzaileen, adimen-lasterketa dena, zeinak eragin lazgarriak izan baititu historiaren bilakaeran. -->
+
+<!-- Gaur egun, kriptografia-algoritmoak digito-komunikazioen oinarri dira. -->
+
+<!-- Tailer honen xedea zera da, antzinako kriptografia-algoritmo batzuk aurkeztea eta horiek apurtzen saiatzea. Horrela, bertan erabiltzen diren teknikak introduzitu eta motibatuko dira, deszifralariei apurtze lana ezinezkotzeko sortutakoak direnak. -->
 
 ## Edukia / Contenido (CAS)
 
-**Título**: Explotación de las vulnerabilidades en los algoritmos criptográficos antiguos
+**Título**: Criptoanálisis 101: Descifrando Enigma
 
-El deseo de preservar la privacidad y los secretos ha llevado a los estados a crear departamentos de criptografía, quienes son los responsables de garantizar la seguridad de las comunicaciones mediante la invención e implementación de los mejores algoritmos criptográficos posibles. Al mismo tiempo, en los mismos departamentos, descifradores han intentado descifrar los algoritmos criptográficos para robar secretos ajenos. La historia de los algoritmos criptográficos es la historia de la batalla entre los creadores de los algoritmos criptográficos y los descifradores, una carrera intelectual que ha tenido un impacto dramático en el curso de la historia.
+Estudiaremos algoritmos clásicos de cifrado y, aún más interesante, exploraremos algunos de los diversos métodos que se han empleado a lo largo de la historia para romperlos.
 
-Hoy en día, los algoritmos criptográficos son la base de toda comunicación digital.
+<!-- **Título**: Explotación de las vulnerabilidades en los algoritmos criptográficos antiguos -->
 
-El objetivo de este taller es presentar algunos algoritmos criptográficos antiguos e intentar romperlos. De esta manera se introducirán y se motivarán las técnicas creadas para hacerles imposible el trabajo de descrifar a los descifradores.
+<!-- El deseo de preservar la privacidad y los secretos ha llevado a los estados a crear departamentos de criptografía, quienes son los responsables de garantizar la seguridad de las comunicaciones mediante la invención e implementación de los mejores algoritmos criptográficos posibles. Al mismo tiempo, en los mismos departamentos, descifradores han intentado descifrar los algoritmos criptográficos para robar secretos ajenos. La historia de los algoritmos criptográficos es la historia de la batalla entre los creadores de los algoritmos criptográficos y los descifradores, una carrera intelectual que ha tenido un impacto dramático en el curso de la historia. -->
+
+<!-- Hoy en día, los algoritmos criptográficos son la base de toda comunicación digital. -->
+
+<!-- El objetivo de este taller es presentar algunos algoritmos criptográficos antiguos e intentar romperlos. De esta manera se introducirán y se motivarán las técnicas creadas para hacerles imposible el trabajo de descrifar a los descifradores. -->
 
 ## Izen-ematea / Inscripción (EUS)
 
-Izen-ematea debaldekoa da. Nahikoa da email bat bidaltzea hona: dif.ziur@ehu.eus. Gaia INSKRIPZIOA CRYPTO ipini eta gorputzean zure datuak (izena+abizenak). Epe muga: 2025-XI-30.
+Izen-ematea debaldekoa da. Nahikoa da email bat bidaltzea hona: dif.ziur@ehu.eus. Gaia INSKRIPZIOA ENIGMA ipini eta gorputzean zure datuak (izena+abizenak). Epe muga: 2025-XI-30.
 
 ## Izen-ematea / Inscripción (CAS)
 
-La inscripción es gratuita. Basta con que envíes un email a dif.ziur@ehu.eus. Tema INSCRIPCIÓN CRYPTO y con tus datos (nombre+apellidos) en el cuerpo del mensaje. Fecha límite: 30-XI-2025.
+La inscripción es gratuita. Basta con que envíes un email a dif.ziur@ehu.eus. Tema INSCRIPCIÓN ENIGMA y con tus datos (nombre+apellidos) en el cuerpo del mensaje. Fecha límite: 30-XI-2025.
+
+## Beharkizunak / Requisitos (EUS)
+
+Programazio-lengoaiaren batekin senidetua egotea. Hizlariaren gomendioa Python da, erraza delako eta berau baita zeinarekin duen tailer hau prestatu, baina norbaitek bestelako lenagoaiaren bat nahiago badu, aurrera.  
+
+Lehen mailako norbait balego, oraindik programatzen ez dakiena, bertaratzeko ez dadila oztopo izan, tailerrera batzera animatzen dugu. Bertan, gauzatxoak inplementatu ezingo baditu ere, kontzeptu teoriko asko bereganatuko dituelako.
+
+## Beharkizunak / Requisitos (CAS)
+
+Familiaridad con algún lenguaje de programación. El ponente recomiendo Python porque es sencillo y es con el que ha preparado el taller, pero si alguien prefiere usar otro, adelante.
+
+Si hay alguien de primero que todavía no sepa programar, le animamos a asistir de todas formas. Aunque no pueda ir implementando las cosas, podrá aprender la parte teórica.
 
 ## Hizlariak / Ponentes (EUS)
 
-**Martin Jimenez Guerra**, Donostiako Informatikan Ingeniarizako Graduko ikaslea.
+**Matxin Jimenez**, Informatikan Ingeniaritzako 5. urteko ikaslea (EHU).
 
 ## Hizlariak / Ponentes (CAS)
 
-**Martin Jimenez Guerra**, estudiante del Grado en Ingeniería Informática de Donostia.
+**Matxin Jimenez**, estudiante de 5º año de Ingeniería Informática (EHU).
