@@ -2,7 +2,7 @@
 layout: post
 title: "C&C Infraestructure in Adversary Simulation"
 date: 2026-01-10 09:00:00 +0200
-tags: [canal lateral, PCB attacks, deep learning]
+tags: [command and control, botnet, adversarial simulation]
 ---
 
 ## Eguna/ordua/tokia: 2026/II/05 / 11:00 / ZIUR Gela (302 lab., Rediet Abede)
