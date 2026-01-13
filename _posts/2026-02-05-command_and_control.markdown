@@ -8,7 +8,7 @@ tags: [command and control, botnet, adversarial simulation]
 ## Eguna/ordua/tokia: 2026/II/05 / 11:00 / ZIUR Gela (302 lab., Rediet Abede)
 
 <div style="text-align: center;">
-<img src="/assets/img/posts/mirai.png" alt="Mirai botnet-aren eskema / Esquema del botnet Mirai (https://devopedia.org). Mediante Creative Commons bidez." title="Mirai botnet-aren eskema / Esquema del botnet Mirai (https://devopedia.org). Mediante Creative Commons bidez." width="40%" />
+<img src="/assets/img/posts/mirai.png" alt="Mirai botnet-aren eskema / Esquema del botnet Mirai (https://devopedia.org). Mediante Creative Commons bidez." title="Mirai botnet-aren eskema / Esquema del botnet Mirai (https://devopedia.org). Mediante Creative Commons bidez." width="70%" />
 </div>
 
 ## Hizkuntza / Idioma 
