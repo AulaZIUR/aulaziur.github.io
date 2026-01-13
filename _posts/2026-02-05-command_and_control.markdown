@@ -8,7 +8,7 @@ tags: [command and control, botnet, adversarial simulation]
 ## Eguna/ordua/tokia: 2026/II/05 / 11:00 / ZIUR Gela (302 lab., Rediet Abede)
 
 <div style="text-align: center;">
-<img src="/assets/img/posts/mirai.png" alt="Mirai botnet-aren eskema / Esquema del botnet Mirai (https://devopedia.org). Mediante Creative Commons bidez.." title="Mirai botnet-aren eskema / Esquema del botnet Mirai (https://devopedia.org). Mediante Creative Commons bidez." width="40%" />
+<img src="/assets/img/posts/mirai.png" alt="Mirai botnet-aren eskema / Esquema del botnet Mirai (https://devopedia.org). Mediante Creative Commons bidez." title="Mirai botnet-aren eskema / Esquema del botnet Mirai (https://devopedia.org). Mediante Creative Commons bidez." width="40%" />
 </div>
 
 ## Hizkuntza / Idioma 
@@ -23,7 +23,7 @@ Aurrez aurrekoa / Presencial
 
 **Izenburua**: C&C Infraestructure in Adversary Simulation
 
-Ofentsibo den zibersegurtasunaren munduan, adbertsariar simulazioa (*Red Teaming*) pentestatze tradizionala baino urrats bat haratago doa, non eraso errealak simulatzen baitira, erakunde baten funtzio kritikoen aurka zuzenduak direnak. Hitzaldi hau operazio horien bizkarrezurra den zera honetan zentratzen da: Command & Control (C2) azpiegituran. Aztertuko dugu operalariek nola diseinatzen dituzten hedatze konplexuak kontrolatzeko ezen konprometitutako sistemak, zer hauek bermatuz: pertsistentzia eta saihes-ihesa. Sakonduko dugu **OPSEC (Seguridad Operacional)** kontzeptuan, non geronen azpiegitura zer hauen bidez nola babestu xehetasunez azalduko baita: birzuzendarien erabileraren, gune neutralen eta trafikoa ofuskatzeko tekniken bidez saihesteko ezen egiletza eta detekzioa *Blue Team* -aren aldetik.
+Ofentsibo den zibersegurtasunaren munduan, adbertsariar simulazioa (*Red Teaming*) pentestatze tradizionala baino urrats bat haratago doa, non eraso errealak simulatzen baitira, erakunde baten funtzio kritikoen aurka zuzenduak direnak. Hitzaldi hau operazio horien bizkarrezurra den zera honetan zentratzen da: Command & Control (C2) azpiegituran. Aztertuko dugu operalariek nola diseinatzen dituzten kontrol-hedatze konplexuak konprometitutako sistemetan, zer hauek bermatuz: pertsistentzia eta saihes-ihesa. Sakonduko dugu **OPSEC (Seguridad Operacional)** kontzeptuan, non geronen azpiegitura zer hauen bidez nola babestu xehetasunez azalduko baita: birzuzendarien erabileraren, gune neutralen eta trafikoa ofuskatzeko tekniken bidez saihesteko ezen egiletza eta detekzioa *Blue Team* -aren aldetik.
 
 ## Edukia / Contenido (CAS)
 
@@ -33,7 +33,7 @@ En el mundo de la ciberseguridad ofensiva, la simulación adversarial (*Red Team
 
 ## Hizlariak / Ponentes (EUS)
 
-**Josu Barrientos**: AYESA-n Head of Offensive Security. Telekomunikazioetan ingeniaria zibersegurtasunaren munduan, non 9 urte baino gehiago daramatzan zerbitzu hauek lideratzen eta egikaritzen: Intrusio eta Adbertsari-Simulazio Testak hainbat eta anitz sektore eta kokapen geografikoetan. Interesa du ezen Malware-aren garapenean, saihesbideetan eta mehatxu-inteligentzian.
+**Josu Barrientos**: AYESA-n Head of Offensive Security. Telekomunikazioetan ingeniaria zibersegurtasunaren munduan, non 9 urte baino gehiago daramatzan zerbitzu hauek lideratzen eta egikaritzen: Intrusio eta Adbertsari-Simulazio Testak hainbat eta askotariko sektore eta kokapen geografikoetan. Interesa du ezen Malware-aren garapenean, saihesbideetan eta mehatxu-inteligentzian.
 
 **Eder Perez**: Informatikan Ingeniaria da Zibersegurtasunean masterra duena. Gaur egun AYESA-n dabil Penetration Testing Manager postuan, non lideratzen eta parte hartzen duen Intrusio-Testen operazio-taldean, gainera, Adbertsaio-Simulazio operazioetan ere badabil. Gozamena hartzen du ulertzen ezen gauzen zergatia eta nolatia, baita albotiko pentsamenduarekin ere, zeina somenezko maneran aplika baitaiteke ikuspuntu adbertsarialetik.
 
