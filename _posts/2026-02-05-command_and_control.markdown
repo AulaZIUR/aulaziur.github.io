@@ -31,6 +31,14 @@ Ofentsibo den zibersegurtasunaren munduan, adbertsariar simulazioa (*Red Teaming
 
 En el mundo de la ciberseguridad ofensiva, la simulación adversarial (*Red Teaming*) va un paso más allá del pentesting tradicional, simulando ataques reales dirigidos contra las funciones críticas de una organización. Esta charla se centra en la columna vertebral de dichas operaciones: la infraestructura de Command & Control (C2). Analizaremos cómo los operadores diseñan despliegues complejos para mantener el control sobre los sistemas comprometidos, garantizando la persistencia y la evasión. Profundizaremos en el concepto de **OPSEC (Seguridad Operacional)**, detallando cómo proteger nuestra propia infraestructura mediante el uso de redirectores, zonas neutrales y técnicas de ofuscación de tráfico para evitar la atribución y detección por parte del *Blue Team*.
 
+## Izen-ematea / Inscripción (EUS)
+
+Izen-ematea debaldekoa da. Nahikoa da email bat bidaltzea hona: dif.ziur@ehu.eus. Gaia INSKRIPZIOA C2 ipini eta gorputzean zure datuak (izena+abizenak). Epe muga: 2026-II-03.
+
+## Izen-ematea / Inscripción (CAS)
+
+La inscripción es gratuita. Basta con que envíes un email a dif.ziur@ehu.eus. Tema INSCRIPCIÓN C2 y con tus datos (nombre+apellidos) en el cuerpo del mensaje. Fecha límite: 03-II-2026.
+
 ## Hizlariak / Ponentes (EUS)
 
 **Josu Barrientos**: AYESA-n Head of Offensive Security. Telekomunikazioetan ingeniaria zibersegurtasunaren munduan, non 9 urte baino gehiago daramatzan zerbitzu hauek lideratzen eta egikaritzen: Intrusio eta Adbertsari-Simulazio Testak hainbat eta askotariko sektore eta kokapen geografikoetan. Interesa du ezen Malware-aren garapenean, saihesbideetan eta mehatxu-inteligentzian.
