@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Hack the Factory: un viaje desde el perímetro hasta hacer que las cosas exploten"
-date: 2026-03-25 09:00:00 +0200
-tags: [AAAA, BBBB, CCCC]
+date: 2026-03-24 09:00:00 +0200
+tags: [kill chain, cyberattacks, OT, industrial cybersecurity]
 ---
 
-## Eguna/ordua/tokia: 2026/IV/23 / 15:00 / AAAAAAA
+## Eguna/ordua/tokia: 2026/IV/23 / 15:00 / Zehazteke
 
 <div style="text-align: center;">
-<!--<img src="/assets/img/posts/mirai.png" alt="Mirai botnet-aren eskema / Esquema del botnet Mirai (https://devopedia.org). Mediante Creative Commons bidez." title="Mirai botnet-aren eskema / Esquema del botnet Mirai (https://devopedia.org). Mediante Creative Commons bidez." width="70%" />-->
+<!--<img src="/assets/img/posts/Intrusion_Kill_Chain.png" alt="Kill chain ereduaren faseak / Fases del modelo kill chain Mirai (wikipedia.org)." title="Kill chain ereduaren faseak / Fases del modelo kill chain Mirai (wikipedia.org)." width="70%" />-->
 </div>
 
 ## Hizkuntza / Idioma 
@@ -25,9 +25,9 @@ Aurrez aurrekoa / Presencial
 
 **Izenburua**: Faktoria hackeatu: bidaia bat perimetrotik hasi eta gauzak eztandarazi arte
 
-Tailer honek zera aurkeztuko du, *cyber kill chain* (ziber hil-kolpeen katea, ziber-erasoen katea) eredua, berau industri-inguruneetara aplikatua. *Kill chain* ereduak ziber-erasoen faseak deskribatzen ditu: *Reconnaissance* (errekonozimendua), *Weaponization* (armakitu, iskilutu), *Delivery* (entrega), *Exploitation* (esplotazioa, ustiapena), *Installation* (instalazioa), *Command and Control* (komando eta kontrola) eta *Actions on Objective* (helburuarekiko ekintza, helburuaren araberako ekintza).
+Tailer honek zera aurkeztuko du, *cyber kill chain* (ziber hil-kolpeen katea, ziber-erasoen katea) eredua, berau industri-inguruneetara aplikatuko dena. *Kill chain* ereduak ziber-erasoen faseak deskribatzen ditu: *Reconnaissance* (errekonozimendua), *Weaponization* (armakindu, iskilutu), *Delivery* (entrega), *Exploitation* (esplotazioa, ustiapena), *Installation* (instalazioa), *Command and Control* (komando eta kontrola) eta *Actions on Objective* (helburuarekiko ekintza, helburuaren araberako ekintza).
 
-Ezagutza eta abilezia praktikoak forma jolasezkotuan eskuratuko dira: gidatutako *Capture The Flag* (CTF) formtuan, euskaraz "banderaren harrapaketan" litzatekeena, non helburuaren perimetrotik abiatuz industri-sarea konprometitu arteko bidea egingo baita. Tailerraren dinamika honetan etzango da: fase bakoitzaren azalpen labur bat emango da, denbora utziko da ikasleek ideiak proposa ditzaten edo ebazten saia daitezen, eta gero, zuzeneko demostrazio bat egingo da non fase hori burutuko den *kill chain* ereduan aurrera joz.
+Ezagutza eta abilezia praktikoak froma jolasezkotuan eskuratuko dira: gidatutako *Capture The Flag* (CTF) formtuan, euskaraz "banderaren harrapaketan" litzatekeena, non helburuaren perimetrotik abiatuz industri-sarea konprometitu arteko bidea egingo baita. Tailerraren dinamika honetan etzango da: fase bakoitzaren azalpen labur bat emango da, denbora utziko da ikasleek ideiak proposa ditzaten edo ebazten saia daitezen, eta gero, zuzeneko demostrazio bat egingo da non fase hori burutuko den *kill chain* ereduan aurrera joz.
 
 **[CAS]**
 
@@ -51,9 +51,9 @@ La inscripción es gratuita. Basta con que envíes un email a dif.ziur@ehu.eus. 
 
 **[EUS]**
 
-Tailerraren aurreko astean zehar, OVA irudi bat bidaliko dizuegu, ariketa egiteko beharrezkoak diren makina birtualak barnebiltzen dituena, horrela, ikasleek ingurunea prestatuta ekar dezaten.
+Tailerraren aurreko astean zehar, OVA irudi bat bidaliko dizuegu, ariketa egiteko beharrezkoak diren makina birtualak barnebiltzen dituena bera, horrela, ikasleek ingurunea prestatuta ekar dezaten.
 
-Beharkizun teknikoei dagokienez, ikasleek eramangarria ekartzearekin nahikoa dute eta bertan, OVA irudia inportatua. Wi-Fi konexiobidea, nahiz ez ezinbesteko, gomendagarria litzateke, horrela, erraztuko baita zertzuen elkar-trukea saioan zehar, bai komandoena, bai materialarena (eta saihestuko baita horiek eskuz kopiatu beharra). 
+Beharkizun teknikoei dagokienez, ikasleek eramangarria ekartzearekin nahikoa dute eta bertan, OVA irudia inportatua. Wi-Fi konektabidea, nahiz ez izan ezinbesteko, gomendagarria litzateke, horrela, erraztuko baita zertzuen elkar-trukea saioan zehar, bai komandoena, bai materialarena (eta saihestuko baita horiek eskuz kopiatu beharra). 
 
 **[CAS]**
 
@@ -65,7 +65,7 @@ En cuanto a los requisitos técnicos, con que el estudiantado acuda con su port�
 
 **[EUS]**
 
-**Ander Martínez Sola**: Donostiako Informatika Fakultatean (EHU) Informatikan Ingeniaritza Gradua ikasi zuen; eta gaur egun operadore da BlackArrow (Tarlogic) enpresako *Read Team* taldean.
+**Ander Martínez Sola**: Donostiako Informatika Fakultatean (EHU) Informatikan Ingeniaritza Gradua ikasi zuen; eta gaur egun operadore lanetan dabil BlackArrow (Tarlogic) enpresako *Read Team* taldean.
 
 **Mikel Trujillo Fernandez de Retana**: Operadore da BlackArrow (Tarlogic) enpresako *Read Team* taldean.
 
