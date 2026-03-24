@@ -8,7 +8,7 @@ tags: [kill chain, cyberattacks, OT, industrial cybersecurity]
 ## Eguna/ordua/tokia: 2026/IV/23 / 15:00 / Zehazteke
 
 <div style="text-align: center;">
-<!--<img src="/assets/img/posts/Intrusion_Kill_Chain.png" alt="Kill chain ereduaren faseak / Fases del modelo kill chain Mirai (wikipedia.org)." title="Kill chain ereduaren faseak / Fases del modelo kill chain Mirai (wikipedia.org)." width="70%" />-->
+<img src="/assets/img/posts/Intrusion_Kill_Chain.png" alt="Kill chain ereduaren faseak / Fases del modelo kill chain Mirai (wikipedia.org)." title="Kill chain ereduaren faseak / Fases del modelo kill chain Mirai (wikipedia.org)." width="70%" />
 </div>
 
 ## Hizkuntza / Idioma 
