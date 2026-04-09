@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hackaton: CTF ariketak"
-date: 2026-03-24 09:00:00 +0200
+date: 2026-03-23 09:00:00 +0200
 tags: [ctf, hacking]
 ---
 
