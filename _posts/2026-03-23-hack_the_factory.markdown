@@ -5,7 +5,7 @@ date: 2026-03-24 09:00:00 +0200
 tags: [kill chain, cyberattacks, OT, industrial cybersecurity]
 ---
 
-## Eguna/ordua/tokia: 2026/IV/23 / 15:00 / Zehazteke
+## Eguna/ordua/tokia: 2026/IV/23 / 15:00 / 1.5 lab.
 
 <div style="text-align: center;">
 <img src="/assets/img/posts/Intrusion_Kill_Chain.png" alt="Kill chain ereduaren faseak / Fases del modelo kill chain Mirai (wikipedia.org)." title="Kill chain ereduaren faseak / Fases del modelo kill chain Mirai (wikipedia.org)." width="70%" />
@@ -43,9 +43,13 @@ Esta adquicisión de conocimientos y habilidades prácticas se realizará de una
 
 Izen-ematea debaldekoa da. Nahikoa da email bat bidaltzea hona: dif.ziur@ehu.eus. Gaia INSKRIPZIOA KILLCHAIN ipini eta gorputzean zure datuak (izena + abizenak). Epe muga: 2026-IV-21.
 
+ADU eta AAF-ko ikasleentzat bertaratzea derrigorrezkoa izango da, irakasgaiko jarduera gisan proposatuko baita.
+
 **[CAS]**
 
 La inscripción es gratuita. Basta con que envíes un email a dif.ziur@ehu.eus. Tema INSCRIPCIÓN KILLCHAIN y con tus datos (nombre + apellidos) en el cuerpo del mensaje. Fecha límite: 21-IV-2026.
+
+Para quienes cuursan las asignaturas DEV y AAF la asistencia será obligatoria, ya que se propone como una actividad de esas asignaturas.
 
 ## Beharkizunak / Requisitos
 
