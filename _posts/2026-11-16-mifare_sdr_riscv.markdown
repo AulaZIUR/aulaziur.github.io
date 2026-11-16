@@ -7,11 +7,9 @@ tags: [radio frequency, sdr, mifare, risc-v]
 
 ## Eguna/ordua/tokia: 2026/XI/26 / 15:00 / Gelategiko 1.7 gela
 
-<!--
 <div style="text-align: center;">
-<img src="/assets/img/posts/Intrusion_Kill_Chain.png" alt="Kill chain ereduaren faseak / Fases del modelo kill chain Mirai (wikipedia.org)." title="Kill chain ereduaren faseak / Fases del modelo kill chain Mirai (wikipedia.org)." width="70%" />
+<img src="/assets/img/posts/cerradura.png" alt="Irrati-uhin lagin bat interpretatzen / Interpretando una muestra de señal de radio (GrAL/TFG: Erik Cembreros. Análisis de vulnerabilidades en sistemas inalámbricos mediante radiofrecuencia y RFID (Haririk gabeko sistemetan bulnerabideen azterketa zertzuen bidez: irrati-maiztasun eta RFID))." title="Irrati-uhin lagin bat interpretatzen / Interpretando una muestra de señal de radio (GrAL/TFG: Erik Cembreros. Análisis de vulnerabilidades en sistemas inalámbricos mediante radiofrecuencia y RFID (Haririk gabeko sistemetan bulnerabideen azterketa honako datu hauen gainean: irrati-maiztasuna eta RFID-a))." width="70%" />
 </div>
--->
 
 ## Hizkuntza / Idioma 
 
@@ -35,18 +33,15 @@ Aurrez aurrekoa / Presencial
 
 **[CAS]** En esta ponencia se monstrará cómo interceptar ondas de radio, aplicaremos ingeniería inversa sobre los protocolos utilizados y finalmente analizaremos sus debilidades y las usaremos para vulnerar los sistemas que las utilizan.
 
-<!--
+**[EUS]** Horiez gain, honako honi buruz ere hitz egingo da: RISC-V arkitekturaren segurtasun-hedapenenei buruz, zeintzuek inkorporetzen baitituzte hardware mekanismoak, zertzuk dituztenak helburu, erasoen aurkako babesak hobetzea eta honako zer hauen arteko isolamendua errefortzatzea: aplikazioen, sistema eragileen eta exekuzio-inguruneen.
+
+**[CAS]** Adicionalmente, se hablará sobre las extensiones de seguridad de la arquitectura RISC-V, las cuales incorporan mecanismos hardware destinados a mejorar la protección frente a ataques y a reforzar el aislamiento entre aplicaciones, sistemas operativos y entornos de ejecución.
+
 ## Izen-ematea / Inscripción
 
-**[EUS]**
+**[EUS]** Kriptografia Aplikatua (KrA-CrA) irakasgaiko ikaslea bazara ez duzu izena eman beharrik. Gainontzekoei eskertuko nizueke email bat hona bidaltzea: dif.ziur@ehu.eus. Gaia INSKRIPZIOA IRRATIA ipini eta gorputzean zure datuak (izena + abizenak). Epe muga: 2026-XI-24.
 
-Izen-ematea debaldekoa da. Nahikoa da email bat bidaltzea hona: dif.ziur@ehu.eus. Gaia INSKRIPZIOA KILLCHAIN ipini eta gorputzean zure datuak (izena + abizenak). Epe muga: 2026-IV-21.
-
-**[CAS]**
-
-La inscripción es gratuita. Basta con que envíes un email a dif.ziur@ehu.eus. Tema INSCRIPCIÓN KILLCHAIN y con tus datos (nombre + apellidos) en el cuerpo del mensaje. Fecha límite: 21-IV-2026.
--->
-
+**[CAS]** Si eres estudiante de la asignatura Criptografía Aplicada (KrA-CrA) no tienes que inscribirte. Al resto de personas agradecería que enviarais un email a dif.ziur@ehu.eus. Tema INSCRIPCIÓN IRRATIA y con tus datos (nombre + apellidos) en el cuerpo del mensaje. Fecha límite: 24-XI-2026.
 
 ## Hizlariak / Ponentes
 
